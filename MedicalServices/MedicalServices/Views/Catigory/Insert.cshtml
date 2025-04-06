@@ -1,0 +1,123 @@
+﻿@model CatigoryVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+
+<h2>Catigorys</h2>
+<div class="new">
+    <div class="input-new">
+        <a>New</a>
+    </div>
+    <div class="sort">
+        <select id="sortDropdown" onchange="location = this.value;">
+            <option value="@Url.Action("Insert", new { Sort = "" })">Sort</option>
+            <option value="@Url.Action("Insert", new { Sort = "Name" })">Sort By Name (Asc)</option>
+            <option value="@Url.Action("Insert", new { Sort = "NameDes" })">Sort By Name (Desc)</option>
+            <option value="@Url.Action("Insert", new { Sort = "IdDes" })">Recently viewed</option>
+        </select>
+    </div>
+</div>
+
+<form asp-action="Insert" class="new-catigory-form"  asp-route-Sort="@ViewBag.Sort" asp-route-LastPage="@ViewBag.Pagination.TotalPages">
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" value="" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Description"></label>
+            <textarea asp-for ="Description" value=""></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+
+    </div>
+
+</form>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Catigory catigory in ViewBag.Catigorys)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@catigory.Name</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@catigory.Description</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="edit" id="@catigory.ID" current-sort="@ViewBag.Sort" current-page="@(ViewBag.Pagination.CurrentPage)">Edit</a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="delete" asp-action="Delete"
+                            asp-controller="Catigory" 
+                            asp-route-id="@catigory.ID" asp-route-Sort="@ViewBag.Sort"  asp-route-CurrentPage="@ViewBag.Pagination.CurrentPage"><i class="fa-solid fa-trash"></i></a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="detail" asp-action="GetByIdAdmin" asp-controller="Catigory" asp-route-id="@catigory.ID">Details</a></p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section FlyForm {
+<div class="fly-form"></div>
+}
+
+<div class="pagination-items">
+    @if (ViewBag.Pagination.CurrentPage > 1)
+    {
+        <div class="pag-item">
+            <a  asp-action="Insert" 
+                   asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage-1)" asp-route-Sort="@ViewBag.Sort">Privous</a>
+        </div>
+    }
+
+    @for (int i = 1; i <= ViewBag.Pagination.TotalPages; i++)
+    {
+        if (i == ViewBag.Pagination.CurrentPage)
+        {
+            <div class="pag-item active">
+                <a  asp-action="Insert" 
+                   asp-route-CurrentPage="@i" asp-route-Sort="@ViewBag.Sort">@i</a>
+            </div>
+        }
+        else
+        {
+            <div class="pag-item">
+                <a asp-action="Insert" 
+                           asp-route-CurrentPage="@i"  asp-route-Sort="@ViewBag.Sort">@i</a>
+            </div>
+        }
+    }
+    @if (ViewBag.Pagination.CurrentPage < ViewBag.Pagination.TotalPages)
+    {
+        <div class="pag-item">
+            <a  asp-action="Insert" 
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage+1)" asp-route-Sort="@ViewBag.Sort">Next</a>
+        </div>
+    }
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"></partial>
+        <script src="/js/jsadmin/savesortstate.js"></script>
+    <script src="~/js/jsadmin/searchadmin.js">
+        </script>
+}
+

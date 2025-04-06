@@ -1,0 +1,50 @@
+﻿/* Start Calling */
+.calling {
+    background-color: #83c4ff;
+    color: white;
+}
+
+    .calling .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+        .calling .container .box.active {
+            background-color: #5db2ff;
+        }
+
+        .calling .container .box {
+            padding: 40px 30px;
+        }
+
+            .calling .container .box i {
+                font-size: 35px;
+            }
+
+            .calling .container .box h2 {
+                margin: 10px 0;
+            }
+
+            .calling .container .box p {
+                line-height: 2;
+                margin: 10px 0;
+            }
+
+            .calling .container .box .Shape {
+                background-color: transparent;
+                padding: 10px 20px;
+            }
+
+                .calling .container .box .Shape:hover {
+                    background-color: white;
+                }
+
+@media (max-width: 768px) {
+    .calling .container .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* End Calling */

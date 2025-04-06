@@ -1,0 +1,90 @@
+﻿/* Start docmed */
+.docmed {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+    .docmed .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+
+        .docmed .container .imgs {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+
+            .docmed .container .imgs img:first-child {
+                top: 0;
+                left: 0;
+            }
+
+            .docmed .container .imgs img:last-child {
+                right: 0;
+                bottom: 0;
+            }
+
+            .docmed .container .imgs img {
+                position: absolute;
+            }
+
+        .docmed .container .text {
+            width: 500px;
+        }
+
+            .docmed .container .text p:first-child {
+                font-size: 25px;
+                position: relative;
+                margin-bottom: 10px;
+            }
+
+                .docmed .container .text p:first-child::before {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 20%;
+                    height: 2px;
+                    background-color: var(--main-color);
+                }
+
+            .docmed .container .text h2 {
+                margin: 0 0 10px 0;
+                font-size: 36px;
+                font-weight: 500;
+            }
+
+            .docmed .container .text p:nth-child(3) {
+                color: #777;
+                line-height: 2;
+                margin-bottom: 20px;
+            }
+
+            .docmed .container .text p.active {
+                color: #777;
+                font-weight: 500;
+                margin-bottom: 20px;
+                position: relative;
+            }
+
+            .docmed .container .text .Shape {
+                margin-top: 20px;
+            }
+
+@media (max-width: 768px) {
+    .docmed .container {
+        flex-direction: column;
+    }
+
+        .docmed .container .imgs {
+            display: none;
+        }
+
+        .docmed .container .text {
+            width: fit-content;
+        }
+}
+/* End docmed */

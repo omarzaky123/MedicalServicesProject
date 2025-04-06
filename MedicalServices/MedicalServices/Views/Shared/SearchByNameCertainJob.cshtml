@@ -1,0 +1,55 @@
+﻿@model List<IWorker>
+    <table>
+        <thead>
+            <tr>
+                <td>Doctor</td>
+                <td>Branch</td>
+                <td>Image</td>
+                <td>Age</td>
+                <td>Salary</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (IWorker worker in Model)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(worker?.User?.UserName ?? "Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.Branch?.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="/Images/Imagesadmin/@worker.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.User?.Age ?? 0)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.User?.Salary ?? 0)</p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete"
+                               asp-action="@(ViewBag.Delete)"
+                               asp-controller="Workers" asp-route-id="@worker.UserID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="@ViewBag.Detail" asp-controller="Workers" asp-route-id="@worker.ID">Details</a>
+                        </p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+@section FlyForm {
+    <div class="fly-form"></div>
+}
+@section Scripts {
+    <script src="/js/jsadmin/savesortstate.js"></script>
+}

@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "Admin/_AdminLayout";
+}
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Location</td>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Rows will be dynamically inserted here -->
+        </tbody>
+    </table>
+</div>
+<div class="new">
+    <a class="input-new save">Save</a>
+</div>
+@section Scripts{
+
+    <partial name="_ValidationScriptsPartial"></partial>
+    <script src="~/js/jsadmin/datebranchlocalstorge.js"></script>
+
+
+}

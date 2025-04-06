@@ -1,0 +1,32 @@
+﻿@model Branch
+    <form asp-action="Update" asp-route-id="@Model.ID"
+    asp-route-CurrentPage="@(ViewBag.CurrentPage)"
+    asp-route-Sort="@ViewBag.Sort" class="disapper-form" enctype="multipart/form-data">
+    <div class="text">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" />
+        <span asp-validation-for="Location"></span>
+    </div>
+    <div class="text">
+        <label asp-for="ContactPhone"></label>
+        <input asp-for="ContactPhone" />
+        <span asp-validation-for="ContactPhone"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" type="file" />
+        <span asp-validation-for="Image"></span>
+    </div>
+    <div class="submit">
+        <input type="submit" />
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"></partial>
+}

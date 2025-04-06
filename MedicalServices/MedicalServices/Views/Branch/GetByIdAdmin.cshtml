@@ -1,0 +1,459 @@
+﻿@model Branch
+@{
+    Layout = "Admin/_AdminLayout";
+    List<MedicalService> RelatedServices = ViewBag.Collection.RelatedServices;
+    List<Catigory> Catigorys = ViewBag.Collection.Catigorys;
+    List<BranchGusetService> branchGusetServices = ViewBag.Collection.RelatedBGS;
+    List<Doctor> doctors = ViewBag.Collection.RelatedDoctors;
+    List<Admin> admins = ViewBag.Collection.RelatedAdmins;
+    List<Assastant> assastants = ViewBag.Collection.RelatedAssastants;
+    List<Accountant> accountants = ViewBag.Collection.RelatedAccountants;
+}
+
+<h2 class="name">@Model.Name</h2>
+
+<div class="boxes">
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="text">
+            <div class="value">@ViewBag.Collection.TotalGain</div>
+            <div class="name">Total Gain</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="text">
+            <div class="value">@ViewBag.Collection.TodayGain</div>
+            <div class="name">Today's Gain</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="text">
+            <div class="value">@ViewBag.Collection.TotalGainThisMonth</div>
+            <div class="name">Total Gain For This Month</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="text">
+            <div class="value">@ViewBag.Collection.TotalSalaryForEmployees</div>
+            <div class="name">Total Salary For Employees</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="text">
+            <div class="value">@ViewBag.Collection.NetTotalGainThisMonth</div>
+            <div class="name">Net Gain For last month</div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="charts">
+
+    <div class="chart">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="chart">
+        <canvas id="myPieChart"></canvas>
+    </div>
+    <div class="chart">
+        <canvas id="myChartNet"></canvas>
+    </div>
+
+</div>
+
+
+@if(User.IsInRole("SuperAdmin")){
+<h2 class="name">Services</h2>
+
+
+
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Prices</td>
+                <td>ContactPhone</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (MedicalService service in RelatedServices)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@service.Name</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@service.Price</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(service?.Catigory?.Name??"")</p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text"><a class="edit" id="@service.ID">Edit</a></p>
+                    </td> *@
+                    <td class="control">
+                        <p class="text"><a class="delete" asp-action="Delete" asp-controller="MedicalService"
+                               asp-route-id="@service.ID" asp-route-ReturnToBranch="true" asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@service.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="Insert" asp-controller="MedicalService">See Services</a>
+</div>
+
+<h2 class="name">Catigorys</h2>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Catigory catigory in Catigorys)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@catigory.Name</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@catigory.Description</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="delete" asp-action="Delete" asp-controller="Catigory"
+                               asp-route-id="@catigory.ID" asp-route-ReturnToBranch="true"
+                               asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@catigory.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="Insert" asp-controller="Catigory">See Catigorys</a>
+</div>
+
+<h2 class="name">Orders</h2>
+
+<div class="board" >
+    <table>
+        <thead>
+            <tr>
+                <td>User</td>
+                <td>Service</td>
+                <td>Branch</td>
+                <td>Date</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (BranchGusetService bgs in branchGusetServices)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(bgs?.Guset?.User?.UserName??"Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(bgs?.MedicalService?.Name??"Not Found")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(bgs?.Branch.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(bgs?.DateBranch?.Date?.AppoinmentDate)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text" id="service-price">@(bgs?.MedicalService?.Price?? 0)</p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteAdmin"
+                               asp-controller="BranchGusetService"
+                               asp-route-id="@bgs.ID" 
+                               asp-route-ReturnToBranch="true" 
+                               asp-route-BranchId="@Model.ID"
+                               asp-route-gusetid="@bgs.GusetID"
+                               asp-route-datebranchid="@bgs.DateBranchID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@bgs.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+            <tr id="orders">
+                <td class="title">
+                    <div class="text">
+                        <h5>Total</h5>
+                    </div>
+                </td>
+                <td class="role" colspan="6" style="text-align:center;">
+                    <p class="text"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="Index" asp-controller="BranchGusetService">See Orders</a>
+</div>
+<h2 class="name">Doctors</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Doctor</td>
+                <td>Branch</td>
+                <td>Image</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Doctor doc in doctors)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(doc?.User?.UserName??"Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(doc?.Branch?.Name??"Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="/Images/Imagesadmin/@doc.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteDoctor" asp-controller="Workers"
+                            asp-route-id="@doc.UserID"
+                            asp-route-ReturnToBranch="true"
+                               asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@doc.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="GetAllDoctors" asp-controller="Workers">See Doctors</a>
+</div>
+<h2 class="name">Assastant</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Assastant</td>
+                <td>Branch</td>
+                <td>Image</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Assastant assastant in assastants)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(assastant?.User?.UserName ?? "Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(assastant?.Branch?.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="/Images/Imagesadmin/@assastant.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteAssastant" asp-controller="Workers"
+                               asp-route-id="@assastant.UserID"
+                               asp-route-ReturnToBranch="true"
+                               asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@assastant.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="GetAllAssastants" asp-controller="Workers">See Assastant</a>
+</div>
+
+<h2 class="name">Accountants</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Accountant</td>
+                <td>Branch</td>
+                <td>Image</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Accountant accountant in accountants)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(accountant?.User?.UserName ?? "Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(accountant?.Branch?.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="/Images/Imagesadmin/@accountant.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteAccoutant" asp-controller="Workers"
+                               asp-route-id="@accountant.UserID"
+                               asp-route-ReturnToBranch="true"
+                               asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@accountant.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="GetAllAccountants" asp-controller="Workers">See Accountants</a>
+</div>
+
+<h2 class="name">Admins</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Admin</td>
+                <td>Branch</td>
+                <td>Image</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Admin admin in admins)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(admin?.User?.UserName ?? "Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(admin?.Branch?.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="/Images/Imagesadmin/@admin.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteAdmin" asp-controller="Workers"
+                               asp-route-id="@admin.UserID"
+                               asp-route-ReturnToBranch="true"
+                               asp-route-BranchId="@Model.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+@*                     <td class="control">
+                        <p class="text">
+                            <a class="detail" asp-action="GetByIdAdmin" asp-controller="Branch" asp-route-id="@admin.ID">Details</a>
+                        </p>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="see-detail-btn">
+    <a asp-action="GetAllAdmins" asp-controller="Workers">See Admins</a>
+</div>
+
+}
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<partial name="_ValidationScriptsPartial"></partial>
+
+
+
+@section Scripts{
+
+    <script src="~/js/jsadmin/monthtotal.js">
+
+    </script>
+
+    <script src="~/js/jsadmin/pirchart.js">
+    </script>
+
+    <script src="~/js/jsadmin/monthNet.js">
+    </script>
+   
+}

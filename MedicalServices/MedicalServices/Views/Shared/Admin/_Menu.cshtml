@@ -1,0 +1,80 @@
+﻿<!-- start the menu -->
+<div class="menu">
+    <div class="logo">
+        <img src="~/Images/Imagesadmin/logo.png" alt="" />
+        <h2>DashBoard</h2>
+    </div>
+    <div class="items">
+        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-user-shield"></i> <a>Roles</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="Index" asp-controller="Role"><li><i class="fa-solid fa-list-check"></i> View Roles</li></a>
+                <a asp-action="New" asp-controller="Role"><li><i class="fa-solid fa-plus"></i> Add Role</li></a>
+                <a asp-action="AssignRole" asp-controller="Account"><li><i class="fa-solid fa-people-arrows"></i> Assign Role</li></a>
+            </div>
+        }
+        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Accountant"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-code-branch"></i> <a>Branches</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                @await Component.InvokeAsync("Branch")
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <a asp-action="Insert" asp-controller="Branch"><li><i class="fa-solid fa-plus"></i> Add Branch</li></a>
+                }
+            </div>
+        }
+        @if (User.IsInRole("SuperAdmin"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-tags"></i> <a>Categories</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="Insert" asp-controller="Catigory"><li><i class="fa-solid fa-plus"></i> Add Category</li></a>
+            </div>
+        }
+        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin") || User.IsInRole("Doctor") || User.IsInRole("Assastant"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-clipboard-list"></i> <a>Orders</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="Index" asp-controller="BranchGusetService"><li><i class="fa-solid fa-list-ol"></i> All Orders</li></a>
+            </div>
+        }
+        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-briefcase-medical"></i> <a>MedicalService</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="Insert" asp-controller="MedicalService"><li><i class="fa-solid fa-plus"></i> Add Medical Service</li></a>
+            </div>
+        }
+        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Doctor"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-folder"></i> <a>Files</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="Upload" asp-controller="File"><li><i class="fa-solid fa-upload"></i> Add Files</li></a>
+                <a asp-action="Index" asp-controller="File"><li><i class="fa-solid fa-file"></i> Files</li></a>
+                <a asp-action="SendEmail" asp-controller="Email" asp-route-FromMenu="true"><li><i class="fa-solid fa-envelope"></i> Send Email</li></a>
+            </div>
+        }
+
+        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-users"></i> <a>Employees</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                @await Component.InvokeAsync("Role")
+                <a asp-action="GetAllWorkers" asp-controller="Workers"><li><i class="fa-solid fa-id-card"></i> Employees</li></a>
+            </div>
+        }
+        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+        {
+            <li class="btn-menu"><i class="fa-solid fa-calendar-days"></i> <a>Dates</a> <i class="fa-solid fa-arrow-down"></i></li>
+            <div class="hidden-menu">
+                <a asp-action="GetDates" asp-controller="Date"><li><i class="fa-solid fa-calendar-check"></i> Dates</li></a>
+                <a asp-action="AssignDatesForBranch" asp-controller="Date"><li><i class="fa-solid fa-calendar-plus"></i> Assign Dates</li></a>
+            </div>
+        }
+
+        <a asp-action="WelcomePage" asp-controller="Welcome"><li><i class="fa-solid fa-house"></i> Home</li></a>
+        <a asp-action="Logout" asp-controller="Account"><li><i class="fa-solid fa-right-from-bracket"></i> Logout</li></a>
+    </div>
+</div>
+<!-- end the menu -->

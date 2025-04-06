@@ -1,0 +1,88 @@
+﻿/* start basket */
+.basket {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-color);
+    min-height: 100vh;
+}
+
+    .basket .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+        .basket .container .box {
+            background-color: white;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+            .basket .container .box .text .description {
+                color: #777;
+                margin-bottom: 20px;
+            }
+
+            .basket .container .box .text .location {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            .basket .container .box .text .service {
+                margin-bottom: 10px;
+            }
+
+            .basket .container .box .controls {
+                position: relative;
+            }
+
+        .basket .container .delete {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: var(--main-color);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor:pointer;
+        }
+            .basket .container .delete a{
+                color:white;
+            }
+
+            @media (max-width: 992px) {
+                .basket .container .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .basket .container .box .text .location {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .basket .container .box .price {
+            margin-bottom: 10px;
+        }
+
+    .basket .container p {
+        margin-bottom: 10px;
+    }
+
+    .basket .container .delete {
+        margin: 10px auto;
+    }
+}
+/* End basket */

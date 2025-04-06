@@ -1,0 +1,53 @@
+﻿@model List<BranchGusetService>
+<!-- start basket -->
+<div class="basket">
+    <div class="container">
+        @foreach(BranchGusetService branchGusetService in Model)
+        {
+            <div class="box">
+                <div class="price">@(branchGusetService?.MedicalService?.Price??0)</div>
+                <div class="text">
+                    <div class="location">@(branchGusetService?.Branch?.Location??"Not found")</div>
+                    <div class="service" style="color:#777;">@(branchGusetService?.MedicalService?.Name??"Not found")</div>
+                </div>
+                <p class="name">
+                    @(branchGusetService?.Guset?.User?.UserName??"Not found")
+                </p>
+                <p class="name">
+                    @if (branchGusetService?.DateBranch?.Date?.AppoinmentDate != null)
+                    {
+                        @(branchGusetService?.DateBranch?.Date?.AppoinmentDate)
+                    }
+                </p>
+
+                @{
+                    DateTime? appointmentDate = branchGusetService?.DateBranch?.Date?.AppoinmentDate;
+                    TimeSpan? RemainTime = null;
+                    if (appointmentDate.HasValue)
+                    {
+                        RemainTime = branchGusetService.DateBranch.Date.AppoinmentDate - DateTime.Now;
+                    }
+
+                }
+                @if (RemainTime.HasValue && RemainTime.Value.Days >= 0 && RemainTime.Value.Hours >= 0 && RemainTime.Value.Minutes >= 0)
+                {
+                    <p class="name">@(RemainTime?.Days) Day @(RemainTime?.Hours) hrs @(RemainTime?.Minutes) Min</p>
+                }
+                else
+                {
+                    <p class="name">The Date Has Expired</p>
+                }
+                <div class="controls">
+                    <div class="delete">
+                        <a asp-action="DeleteGuset" asp-controller="BranchGusetService"
+                           asp-route-bgsid="@branchGusetService.ID" asp-route-gusetid="@branchGusetService.GusetID"
+                           asp-route-datebranchid="@branchGusetService.DateBranchID">&#10007</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        }
+    </div>
+</div>
+<!-- End basket -->

@@ -1,0 +1,87 @@
+﻿/* start big-footer */
+.big-footer {
+    background-color: #1f1f1f;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+    .big-footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+        .big-footer .container .left .logo img {
+            max-width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .big-footer .container .left p {
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .big-footer .container .left .icons i {
+            color: white;
+            font-size: 30px;
+            margin-right: 10px;
+            transition: var(--main-transtion);
+        }
+
+            .big-footer .container .left .icons i:hover {
+                color: var(--main-color);
+            }
+
+        .big-footer .container .right {
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+        }
+
+            .big-footer .container .right .department h3,
+            .big-footer .container .right .useful-links h3,
+            .big-footer .container .right .address h3 {
+                color: white;
+                font-size: 25px;
+                font-weight: 500;
+                margin: 0 0 20px 0;
+            }
+
+            .big-footer .container .right .department li,
+            .big-footer .container .right .useful-links li {
+                margin-bottom: 10px;
+            }
+
+                .big-footer .container .right .department li a,
+                .big-footer .container .right .useful-links li a {
+                    color: #bababa;
+                    transition: var(--section-color);
+                }
+
+                    .big-footer .container .right .department li a:hover,
+                    .big-footer .container .right .useful-links li a:hover,
+                    .big-footer .container .right .address p:hover {
+                        color: var(--main-color);
+                    }
+
+            .big-footer .container .right .address p {
+                width: 200px;
+                color: white;
+                transition: var(--main-transtion);
+            }
+
+@media (max-width: 992px) {
+    .big-footer .container,
+    .big-footer .container .right {
+        flex-direction: column;
+    }
+
+        .big-footer .container .left,
+        .big-footer .container .right ul,
+        .big-footer .container .right h3,
+        .big-footer .container .right .address p {
+            text-align: center;
+        }
+}
+/* End big-footer */
