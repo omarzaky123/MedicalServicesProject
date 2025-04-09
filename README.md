@@ -1,11 +1,11 @@
 # MedicalServicesProject 🌡️
 
 A **secure, role-based** web application for multi-branch medical service bookings.  
-**Patients** book services; **admins, doctors, and staff** manage roles and appointments.
+**Patients** book services; **admins, doctors, Assastants,Accountants,Guests,SuperAdmin,** manage roles and appointments.
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: .NET 8 MVC
-- **Features**: Secure authentication, role-based access control, multi-branch support
+- **Features**: Secure authentication, role-based access control, multi-branch support,Selecting Dates,DashBoards
 
 ---
 
