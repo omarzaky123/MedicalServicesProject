@@ -39,38 +39,38 @@
                 let textAreas = document.querySelectorAll(".disapper-form textarea");
                 let spanInput = document.querySelectorAll(".disapper-form .text span");
                 let spanText = document.querySelectorAll(".disapper-form .text-area span");
-                appereForm.addEventListener("submit", function (event) {
-                    let isEmptyinput = false;
-                    let isEmptyTextArea = false;
-                    for (let i = 0; i < inputs.length - 2; i++) {
-                        if (inputs[i].value == "") {
-                            isEmptyinput = true;
-                        }
-                        else {
-                            isEmptyinput = false;
-                        }
+                //appereForm.addEventListener("submit", function (event) {
+                //    let isEmptyinput = false;
+                //    let isEmptyTextArea = false;
+                //    for (let i = 0; i < inputs.length - 2; i++) {
+                //        if (inputs[i].value == "") {
+                //            isEmptyinput = true;
+                //        }
+                //        else {
+                //            isEmptyinput = false;
+                //        }
 
-                        if (isEmptyinput) {
-                            spanInput[i].innerHTML = "This field is Requied";
-                            event.preventDefault();
-                        }
-                    }
+                //        if (isEmptyinput) {
+                //            spanInput[i].innerHTML = "This field is Requied";
+                //            event.preventDefault();
+                //        }
+                //    }
 
-                    for (let i = 0; i < textAreas.length; i++) {
-                        if (textAreas[i].value == "") {
-                            isEmptyTextArea = true;
-                        }
-                        else {
-                            isEmptyTextArea = false;
-                        }
+                //    for (let i = 0; i < textAreas.length; i++) {
+                //        if (textAreas[i].value == "") {
+                //            isEmptyTextArea = true;
+                //        }
+                //        else {
+                //            isEmptyTextArea = false;
+                //        }
 
-                        if (isEmptyTextArea) {
-                            event.preventDefault();
-                            spanText[i].innerHTML = "This field is Requied";
-                        }
-                    }
+                //        if (isEmptyTextArea) {
+                //            event.preventDefault();
+                //            spanText[i].innerHTML = "This field is Requied";
+                //        }
+                //    }
 
-                })
+                //})
             }
         });
     }

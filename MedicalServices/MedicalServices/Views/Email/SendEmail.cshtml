@@ -14,12 +14,12 @@
         </div>
         <div class="text-area">
             <label asp-for="Subject"></label>
-            <textarea name="Subject" id="Subject">@(ViewBag?.defaultsubj??"")</textarea>
+            <textarea asp-for="Subject"></textarea>
             <span asp-validation-for="Subject"></span>
         </div>
         <div class="text-area">
             <label asp-for="Body"></label>
-            <textarea name="Body" id="Body">@(ViewBag?.defaultbody??"")</textarea>
+            <textarea asp-for="Body"></textarea>
             <span asp-validation-for="Body"></span>
         </div>
         <div class="text">
@@ -36,5 +36,12 @@
     </div>
 
 </form>
-
+@section Scripts{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("Subject").value = "@Html.Raw(ViewBag?.defaultsubj ?? "")";
+            document.getElementById("Body").value = "@Html.Raw(ViewBag?.defaultbody ?? "")";
+        });
+    </script>
 <partial name="_ValidationScriptsPartial"></partial>
+}

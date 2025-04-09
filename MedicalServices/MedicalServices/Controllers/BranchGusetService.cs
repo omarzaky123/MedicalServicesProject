@@ -64,7 +64,7 @@ namespace MedicalServices.Controllers
                 BGS = sortAndSearchRepository.StateSort(Sort);
             }
 
-            PaginationVm<BranchGusetService> paginationVm = new PaginationVm<BranchGusetService>(2, CurrentPage, BGS);
+            PaginationVm<BranchGusetService> paginationVm = new PaginationVm<BranchGusetService>(5, CurrentPage, BGS);
             ViewBag.Pagination = paginationVm;
             BGS = paginationVm.Items;
             ViewBag.Sort = Sort;
@@ -100,6 +100,7 @@ namespace MedicalServices.Controllers
             List<BranchGusetService> branchGusetServices = sortAndSearchRepository.SearchByGuset(searchname,branchid);
             return PartialView(branchGusetServices);
         }
+
 
 
 

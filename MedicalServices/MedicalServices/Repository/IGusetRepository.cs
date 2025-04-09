@@ -1,4 +1,4 @@
-﻿using MedicalServices.Migrations;
+﻿//using MedicalServices.Migrations;
 using MedicalServices.Models;
 
 namespace MedicalServices.Repository

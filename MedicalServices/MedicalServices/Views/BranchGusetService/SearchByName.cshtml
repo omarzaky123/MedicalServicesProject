@@ -53,8 +53,10 @@
                         <p class="text">Appointment date not available</p>
                     }
                 </td>
-                <td class="control">
-                    <p class="text">
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td class="control">
+                        <p class="text">
                         <a class="delete" asp-action="DeleteAdmin"
                            asp-controller="BranchGusetService"
                            asp-route-id="@Bgs.ID"
@@ -62,6 +64,7 @@
                            asp-route-datebranchid="@Bgs.DateBranchID"><i class="fa-solid fa-trash"></i></a>
                     </p>
                 </td>
+                }
                 <td class="control">
                     <p class="text">
                         <a class="detail" asp-action="GetById" asp-route-id="@Bgs.ID">Details</a>

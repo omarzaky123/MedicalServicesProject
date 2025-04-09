@@ -39,8 +39,8 @@
             background-color: white;
             box-shadow: 2px 2px 3px #e6e6e6;
             transition: var(--main-transtion);
-            width: 30%;
-            
+           /* width: 30%;*/
+            max-width: 261px;
         }
 
             .cards-container .container .box:hover {
@@ -78,7 +78,6 @@
             flex-wrap: wrap;
             justify-content: flex-start;
             max-width: 230px;
-            max-height: 200px;
             padding: 15px;
             border-radius:5px;
             background-color:white;
@@ -122,6 +121,7 @@
     }
 
         .cards-container .container .box {
+            max-width: 100%;
             width: 100%;
         }
 

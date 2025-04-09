@@ -50,11 +50,16 @@ namespace MedicalServices.Controllers
             return View(welcomePageAllNeeds);
         }
 
-        public IActionResult SeeMedicalServcie(int id)
+        public IActionResult SeeMedicalServcie(int id,int CurrentPage=1)
 
         {
+            List<MedicalService> medicalServices = branchRepository.GetRelatedMedical(id);
+            PaginationVm<MedicalService> pagination = new PaginationVm<MedicalService>(6, CurrentPage, medicalServices);
+            medicalServices = pagination.Items;
+            ViewBag.BranchId = id;
             ViewBag.BranchCatigorys= branchRepository.GetRelateCatigorys(id);
-            return View(branchRepository.GetRelatedMedical(id));
+            ViewBag.Pagination = pagination;
+            return View(medicalServices);
         }
         public IActionResult StoreGusetCookie(int MedicalId, int BranchId)
         {

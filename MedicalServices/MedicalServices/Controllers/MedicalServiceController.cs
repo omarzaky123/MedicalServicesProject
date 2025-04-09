@@ -17,13 +17,15 @@ namespace MedicalServices.Controllers
         private readonly ISortAndSearchRepository<MedicalService> sortAndSearchRepository;
         private readonly IWorkerRepository<Admin> workerRepository;
         private readonly IImageRepository imageRepository;
+        private readonly IMedicalServicesRepository medical;
 
         public MedicalServiceController(IGeneralRepository<MedicalService> _generalRepository,
             IGeneralRepository<Catigory> _generalCatigory,
             IGeneralRepository<Branch> _generalBranch,
             ISortAndSearchRepository<MedicalService> sortAndSearchRepository,
             IWorkerRepository<Admin> workerRepository,
-            IImageRepository imageRepository
+            IImageRepository imageRepository,
+            IMedicalServicesRepository medical
             
             )
         {
@@ -33,6 +35,7 @@ namespace MedicalServices.Controllers
             this.sortAndSearchRepository = sortAndSearchRepository;
             this.workerRepository = workerRepository;
             this.imageRepository = imageRepository;
+            this.medical = medical;
         } 
         #endregion
 
@@ -75,7 +78,7 @@ namespace MedicalServices.Controllers
                 vm.branches = generalBranch.GetAll();
             }
             vm.Catigorys= generalCatigory.GetAll();
-            PaginationVm<MedicalService> paginationVm = new PaginationVm<MedicalService>(2,CurrentPage
+            PaginationVm<MedicalService> paginationVm = new PaginationVm<MedicalService>(5,CurrentPage
                 ,vm.MedicalServices);
             vm.MedicalServices = paginationVm.Items;
             ViewBag.Pagination = paginationVm;  
@@ -125,15 +128,35 @@ namespace MedicalServices.Controllers
             ViewBag.Collection = vm;
             ViewBag.CurrentPage=CurrentPage;    
             ViewBag.Sort=Sort;
-            return PartialView(generalRepository.GetById(id));
+            ViewBag.Id = id;
+
+            #region Mapping
+            MedicalService medicalService = generalRepository.GetById(id);
+            MedicalServiceVm medicalServiceVm = new MedicalServiceVm();
+            medicalServiceVm.Name=medicalService.Name;
+            medicalServiceVm.Price= medicalService.Price;
+            medicalServiceVm.CatId=medicalService?.CatigoryID??0;
+            medicalServiceVm.BranchId=medicalService?.BranchID??0;
+            medicalServiceVm.Description=medicalService.Description;
+
+            #endregion
+
+            return PartialView(medicalServiceVm);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "SuperAdmin,Admin")]
-        public  IActionResult Update(int id,MedicalService medicalService,int CurrentPage,string Sort)
+        public  IActionResult Update(int id,MedicalServiceVm medicalServiceVm,int CurrentPage,string Sort)
         {
-
-            generalRepository.Update(id, medicalService);
+            MedicalService OldService=generalRepository.GetById(id);
+            MedicalService NewService =new MedicalService();
+            NewService.Name=medicalServiceVm.Name;
+            NewService.Price=medicalServiceVm.Price;
+            NewService.BranchID=medicalServiceVm.BranchId;
+            NewService.CatigoryID=medicalServiceVm.CatId;
+            NewService.Description=medicalServiceVm.Description;
+            imageRepository.UpdateImageInWroot(OldService.Image, NewService, medicalServiceVm.Image);
+            medical.Update(id, NewService);
             return RedirectToAction("Insert",new { CurrentPage=CurrentPage,Sort=Sort});
         }
         #region MyRegion
@@ -160,6 +183,12 @@ namespace MedicalServices.Controllers
 
         #endregion
         public IActionResult SearchByName(string searchname,int branchid)
+        {
+            List<MedicalService> result = sortAndSearchRepository.SearchByName(searchname, branchid);
+            return PartialView(result);
+
+        }
+        public IActionResult SearchByNameGuset(string searchname, int branchid)
         {
             List<MedicalService> result = sortAndSearchRepository.SearchByName(searchname, branchid);
             return PartialView(result);

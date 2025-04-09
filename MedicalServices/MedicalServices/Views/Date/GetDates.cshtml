@@ -16,7 +16,7 @@
         <thead>
             <tr>
                 <td>Name</td>
-                <td>Description</td>
+                <td>ID</td>
             </tr>
         </thead>
         <tbody>
@@ -25,11 +25,11 @@
                 <tr>
                     <td class="title">
                         <div class="text">
-                            <h5>@date.AppoinmentDate</h5>
+                            <h5>@(date?.AppoinmentDate.ToString()??"The Date Is Not Found")</h5>
                         </div>
                     </td>
                     <td class="role">
-                        <p class="text">@date.ID</p>
+                        <p class="text">@(date?.ID??0)</p>
                     </td>
                 </tr>
             }

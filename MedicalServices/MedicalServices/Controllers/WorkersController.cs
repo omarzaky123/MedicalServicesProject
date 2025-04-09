@@ -102,7 +102,7 @@ namespace MedicalServices.Controllers
         public IActionResult GetAllDoctors(int CurrentPage=1,string Sort="")
         {
             List<Doctor> doctors = sortAndSearchRepository.StateSort(Sort);
-            PaginationVm<Doctor> paginationVm = new PaginationVm<Doctor>(2,CurrentPage,doctors);
+            PaginationVm<Doctor> paginationVm = new PaginationVm<Doctor>(5,CurrentPage,doctors);
             ViewBag.Pagination=paginationVm;
             doctors=paginationVm.Items;
             ViewBag.Action = "GetAllDoctors";
@@ -116,7 +116,7 @@ namespace MedicalServices.Controllers
         public IActionResult GetAllAssastants(int CurrentPage=1, string Sort = "")
         {
             List<Assastant> assastants = sortAndSearchRepositoryAss.StateSort(Sort);
-            PaginationVm<Assastant> paginationVm = new PaginationVm<Assastant>(2, CurrentPage, assastants);
+            PaginationVm<Assastant> paginationVm = new PaginationVm<Assastant>(5, CurrentPage, assastants);
             ViewBag.Pagination = paginationVm;
             assastants = paginationVm.Items;
             ViewBag.Action = "GetAllAssastants";
@@ -130,7 +130,7 @@ namespace MedicalServices.Controllers
         public IActionResult GetAllAccountants(int CurrentPage = 1, string Sort = "")
         {
             List<Accountant> accountants = sortAndSearchRepositoryAcc.StateSort(Sort);
-            PaginationVm<Accountant> paginationVm = new PaginationVm<Accountant>(2, CurrentPage, accountants);
+            PaginationVm<Accountant> paginationVm = new PaginationVm<Accountant>(5, CurrentPage, accountants);
             ViewBag.Pagination = paginationVm;
             accountants = paginationVm.Items;
             ViewBag.Action = "GetAllAccountants";
@@ -145,7 +145,7 @@ namespace MedicalServices.Controllers
         {
 
             List<Admin> admins = sortAndSearchRepositoryAdmin.StateSort(Sort);
-            PaginationVm<Admin> paginationVm = new PaginationVm<Admin>(2, CurrentPage, admins);
+            PaginationVm<Admin> paginationVm = new PaginationVm<Admin>(5, CurrentPage, admins);
             ViewBag.Pagination = paginationVm;
             admins = paginationVm.Items;
             ViewBag.Action = "GetAllAdmins";

@@ -1,11 +1,11 @@
-﻿@model MedicalService
+﻿@model MedicalServiceVm
 @{
     List<Catigory> catigories = ViewBag.Collection.Catigorys;
     List<Branch> branches = ViewBag.Collection.branches;
     SelectList selectListItems01 = new SelectList(catigories, "ID", "Name");
     SelectList selectListItems02 = new SelectList(branches, "ID", "Name");
 }
-<form asp-action="Update" asp-route-id="@Model.ID" asp-route-CurrentPage="@(ViewBag.CurrentPage)" asp-route-Sort="@ViewBag.Sort" class="disapper-form">
+<form asp-action="Update" asp-route-id="@ViewBag.Id" asp-route-CurrentPage="@(ViewBag.CurrentPage)" asp-route-Sort="@ViewBag.Sort" class="disapper-form" enctype="multipart/form-data">
     <div class="text">
         <label asp-for="Name"></label>
         <input asp-for="Name" />
@@ -22,13 +22,13 @@
         <span asp-validation-for="Image"></span>
     </div>
     <div class="text">
-        <label asp-for="CatigoryID">Catigory</label>
-        <select asp-items="selectListItems01" asp-for="CatigoryID">
+        <label asp-for="CatId">Catigory</label>
+        <select asp-items="selectListItems01" asp-for="CatId">
         </select>
     </div>
     <div class="text">
-        <label asp-for="BranchID">Branch</label>
-        <select asp-items="selectListItems02" asp-for="BranchID">
+        <label asp-for="BranchId">Branch</label>
+        <select asp-items="selectListItems02" asp-for="BranchId">
         </select>
     </div>
     <div class="text-area">

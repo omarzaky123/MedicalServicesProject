@@ -79,12 +79,12 @@ namespace MedicalServices.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public IActionResult Update(int id, Catigory catigory,int CurrentPage,string Sort)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 generalRepository.Update(id, catigory);
                 return RedirectToAction("Insert",new {CurrentPage=CurrentPage ,Sort=Sort});
-            }
-        return RedirectToAction("Insert");
+            //}
+        //return RedirectToAction("Insert");
         }
 
         [Authorize(Roles = "SuperAdmin")]

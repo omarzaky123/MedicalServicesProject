@@ -45,71 +45,26 @@ namespace MedicalServices.Repository
         #endregion
 
         #region Update
-        public async Task<bool> UpdateImageInWroot(IHasImage hasImage, string Location = "Images/Imagesadmin/")
+
+
+        public async Task<bool> UpdateImageInWroot(string OldImagePath,IHasImage hasImage,IFormFile NewImage)
         {
-            IFormFile newImageFile = GetImageAsFormFile(hasImage.Image, webHostEnvironment.WebRootPath);
-            if (newImageFile == null)
-                return false;
-            if (!string.IsNullOrEmpty(hasImage.Image))
-            {
-                DeleteImageInWroot(hasImage.Image);
-            }
-            return await SaveImageInWroot(hasImage, newImageFile, Location);
+
+            DeleteImageInWroot(OldImagePath);
+            await SaveImageInWroot(hasImage, NewImage);
+            return true;
         }
 
-        public IFormFile GetImageAsFormFile(string imagePath, string webRootPath)
-        {
-            if (string.IsNullOrEmpty(imagePath) || string.IsNullOrEmpty(webRootPath))
-            {
-                return null;
-            }
 
-            string fullPath = Path.Combine(webRootPath, imagePath);
 
-            if (!File.Exists(fullPath))
-            {
-                return null;
-            }
 
-            try
-            {
-                var fileInfo = new FileInfo(fullPath);
-                var stream = new FileStream(fullPath, FileMode.Open);
-                return new FormFile(
-                    baseStream: stream,
-                    baseStreamOffset: 0,
-                    length: fileInfo.Length,
-                    name: "file", // This is the form field name
-                    fileName: Path.GetFileName(fullPath))
-                {
-                    Headers = new HeaderDictionary(),
-                    ContentType = GetContentType(fullPath)
-                };
-            }
-            catch
-            {
-                return null;
-            }
-        }
 
-        private string GetContentType(string path)
-        {
-            var extension = Path.GetExtension(path).ToLowerInvariant();
-            return extension switch
-            {
-                ".jpg" or ".jpeg" => "image/jpeg",
-                ".png" => "image/png",
-                ".gif" => "image/gif",
-                ".bmp" => "image/bmp",
-                ".webp" => "image/webp",
-                _ => "application/octet-stream" // default content type
-            };
-        }
+
         #endregion
 
         #region Delete
         //Delete Image
-        public  void DeleteImageInWroot(string Image)
+        public void DeleteImageInWroot(string Image)
         {
 
             if (Image != null)

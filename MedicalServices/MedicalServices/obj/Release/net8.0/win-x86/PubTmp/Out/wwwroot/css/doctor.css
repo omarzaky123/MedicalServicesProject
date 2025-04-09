@@ -92,6 +92,7 @@
                 .doctor .container .boxes .box img {
                     max-width: 100%;
                     transition: var(--main-transtion);
+                    width:250px;
                 }
 
                 .doctor .container .boxes .box .text {

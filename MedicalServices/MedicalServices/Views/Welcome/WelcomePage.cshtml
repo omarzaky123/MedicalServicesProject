@@ -134,7 +134,7 @@
             @foreach(Doctor doctor in Model.doctors)
             {
                 <div class="box">
-                    <img src="/Images/doctor.png" alt="" />
+                    <img src="@doctor.User.Image" alt="" />
                     <div class="text">
                         <h3>@(doctor?.User?.UserName??"")</h3>
                         <p>@(doctor?.Branch?.Name??"")</p>

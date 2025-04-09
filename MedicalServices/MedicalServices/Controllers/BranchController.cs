@@ -61,7 +61,7 @@ namespace MedicalServices.Controllers
         {
             List<Branch> branches;
             branches=sortAndSearchRepository.StateSort(Sort);
-            PaginationVm<Branch> paginationVm = new PaginationVm<Branch>(2,CurrentPage,branches);
+            PaginationVm<Branch> paginationVm = new PaginationVm<Branch>(5,CurrentPage,branches);
             ViewBag.Branches= paginationVm.Items;
             ViewBag.Pagination = paginationVm;
             ViewBag.Sort = Sort;
@@ -91,12 +91,31 @@ namespace MedicalServices.Controllers
         {
             ViewBag.CurrentPage=CurrentPage;
             ViewBag.Sort=Sort;
-            return PartialView(branchRepository.GetById(id));
+            ViewBag.Id=id;
+            #region Mapping
+            BranchVm branchVm = new BranchVm();
+            Branch branch = branchRepository.GetById(id);
+            branchVm.Location = branch.Location;
+            branchVm.ContanctPhone = branch.ContactPhone;
+            branchVm.Name = branch.Name; 
+            #endregion
+            return PartialView(branchVm);
         }
         [Authorize(Roles = "SuperAdmin")]
-        public IActionResult Update(int id,Branch branch,int CurrentPage,string Sort)
+        public IActionResult Update(int id,BranchVm branchVm,int CurrentPage,string Sort)
         {
-            branchRepository.Update(id,branch);
+
+            #region Mapping
+            Branch OldBranch = branchRepository.GetById(id);
+            //imageRepository.DeleteImageInWroot(OldBranch.Image);
+            Branch NewBranch = new Branch();
+            NewBranch.Name = branchVm.Name;
+            NewBranch.Location = branchVm.Location;
+            NewBranch.ContactPhone = branchVm.ContanctPhone;
+            //imageRepository.SaveImageInWroot(NewBranch,branchVm.Image); 
+            #endregion
+            imageRepository.UpdateImageInWroot(OldBranch.Image, NewBranch,branchVm.Image);
+            branchRepositoryNonGeneral.Update(id,NewBranch);
             return RedirectToAction("Insert", new {CurrentPage=CurrentPage,Sort=Sort});
         }
 

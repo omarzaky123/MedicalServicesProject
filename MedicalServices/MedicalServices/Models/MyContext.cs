@@ -51,20 +51,17 @@ namespace MedicalServices.Models
                 .HasOne(M => M.Catigory)
                 .WithMany(C=>C.MedicalServices)
                 .OnDelete(DeleteBehavior.Cascade);
-            base.OnModelCreating(builder);
 
-            //builder.Entity<Branch>()
-            //    .HasMany(B => B.MedicalServices)
-            //    .WithOne(M => M.Branch)
-            //    .OnDelete(DeleteBehavior.Cascade);
-            //builder.Entity<Branch>()
-            //    .HasMany(B => B.Admins)
-            //       .WithOne(M => M.Branch)
-            //       .OnDelete(DeleteBehavior.SetNull);
-            //builder.Entity<Branch>()
-            //    .HasMany(B => B.BranchGusetServices)
-            //        .WithOne(M => M.Branch)
-            //    .OnDelete(DeleteBehavior.SetNull);
+
+            builder.Entity<BranchGusetService>()
+                .Property(X=>X.Uploaded)
+                .HasDefaultValue(false);
+            builder.Entity<BranchGusetService>()
+                .Property(X => X.EmailSent)
+                .HasDefaultValue(false);
+
+            base.OnModelCreating(builder);
+            
 
 
             builder.Entity<BranchGusetService>()

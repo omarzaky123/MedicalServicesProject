@@ -76,6 +76,42 @@
         </tbody>
     </table>
 </div>
+
+
+<div class="pagination-items">
+    @if (ViewBag.Pagination.CurrentPage > 1)
+    {
+        <div class="pag-item">
+            <a asp-action="Index"
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage-1)">Privous</a>
+        </div>
+    }
+
+    @for (int i = 1; i <= ViewBag.Pagination.TotalPages; i++)
+    {
+        if (i == ViewBag.Pagination.CurrentPage)
+        {
+            <div class="pag-item active">
+                <a asp-action="Index"
+                   asp-route-CurrentPage="@i">@i</a>
+            </div>
+        }
+        else
+        {
+            <div class="pag-item">
+                <a asp-action="Index"
+                   asp-route-CurrentPage="@i">@i</a>
+            </div>
+        }
+    }
+    @if (ViewBag.Pagination.CurrentPage < ViewBag.Pagination.TotalPages)
+    {
+        <div class="pag-item">
+            <a asp-action="Index"
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage+1)">Next</a>
+        </div>
+    }
+</div>
 @if (TempData["success"] != null)
 {
 

@@ -27,5 +27,7 @@ namespace MedicalServices.Repository
         List<(string serviceName, int Count)> MostRequiredService(int id);
 
         void Delete(int id);
+
+        void Update(int id, Branch newBranch);
     }
 }

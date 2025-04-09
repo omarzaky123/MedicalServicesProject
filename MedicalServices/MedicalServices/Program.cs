@@ -47,6 +47,7 @@ namespace MedicalServices
             builder.Services.AddScoped<IRoleRepository, RoleRepository>();
             builder.Services.AddScoped<IFileRepository, FileRepository>();
             builder.Services.AddScoped<IImageRepository, ImageRepository>();
+            builder.Services.AddScoped<IMedicalServicesRepository, MedicalServicesRepository>();
             builder.Services.AddScoped(typeof(IWorkerRepository<>), typeof(WorkerRepository<>));
             builder.Services.AddTransient<IMailingService, MailingService>();
 

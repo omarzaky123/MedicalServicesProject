@@ -4,7 +4,9 @@
     {
         Task<bool> SaveImageInWroot(IHasImage hasImage, IFormFile ImageFile, string Location = "Images/Imagesadmin/");
         void DeleteImageInWroot(string Image);
-        Task<bool> UpdateImageInWroot(IHasImage hasImage, string Location = "Images/Imagesadmin/");
+
+        Task<bool> UpdateImageInWroot(string OldImagePath, IHasImage hasImage, IFormFile NewImage);
+
     }
     public interface IHasImage
     {

@@ -33,7 +33,7 @@ namespace MedicalServices.Controllers
             this.generalRepositoryBGS = generalRepositoryBGS;
             this.branchGusetService = branchGusetService;
         }
-        public IActionResult Index()
+        public IActionResult Index(int CurrentPage=1)
         {
             List<UplodedFile> files=new List<UplodedFile>();
             if (User.IsInRole("Doctor"))
@@ -46,7 +46,9 @@ namespace MedicalServices.Controllers
             {
                 files = fileRepository.GetAll();
             }
-           
+            PaginationVm<UplodedFile> pagination = new PaginationVm<UplodedFile>(5, CurrentPage, files);
+            files=pagination.Items;
+            ViewBag.Pagination = pagination;
             return View(files);
         }
         [HttpGet]

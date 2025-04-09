@@ -46,7 +46,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Accountants", (string)null);
+                    b.ToTable("Accountants");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Admin", b =>
@@ -70,7 +70,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Admins", (string)null);
+                    b.ToTable("Admins");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.ApplicationUser", b =>
@@ -172,7 +172,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Assastants", (string)null);
+                    b.ToTable("Assastants");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Branch", b =>
@@ -200,7 +200,7 @@ namespace MedicalServices.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Branchs", (string)null);
+                    b.ToTable("Branchs");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.BranchGusetService", b =>
@@ -218,7 +218,9 @@ namespace MedicalServices.Migrations
                         .HasColumnType("int");
 
                     b.Property<bool?>("EmailSent")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<int?>("GusetID")
                         .HasColumnType("int");
@@ -227,7 +229,9 @@ namespace MedicalServices.Migrations
                         .HasColumnType("int");
 
                     b.Property<bool?>("Uploaded")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.HasKey("ID");
 
@@ -239,7 +243,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("ServiceID");
 
-                    b.ToTable("BranchGusetServices", (string)null);
+                    b.ToTable("BranchGusetServices");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Catigory", b =>
@@ -260,7 +264,7 @@ namespace MedicalServices.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Catigorys", (string)null);
+                    b.ToTable("Catigorys");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Date", b =>
@@ -276,7 +280,7 @@ namespace MedicalServices.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Dates", (string)null);
+                    b.ToTable("Dates");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.DateBranch", b =>
@@ -302,7 +306,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("DateId");
 
-                    b.ToTable("DateBranchs", (string)null);
+                    b.ToTable("DateBranchs");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Doctor", b =>
@@ -326,7 +330,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Doctors", (string)null);
+                    b.ToTable("Doctors");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.Guset", b =>
@@ -345,7 +349,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Gusets", (string)null);
+                    b.ToTable("Gusets");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.MedicalService", b =>
@@ -385,7 +389,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("CatigoryID");
 
-                    b.ToTable("MedicalServices", (string)null);
+                    b.ToTable("MedicalServices");
                 });
 
             modelBuilder.Entity("MedicalServices.Models.UplodedFile", b =>
@@ -412,7 +416,7 @@ namespace MedicalServices.Migrations
 
                     b.HasIndex("BGSID");
 
-                    b.ToTable("UplodedFiles", (string)null);
+                    b.ToTable("UplodedFiles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -944,6 +944,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\275f3f9a-bc28-42ab-813c-ccfbe33a8f30_Screenshot 2023-10-25 184019.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\30e85dcd-1e2a-4e8e-833d-d7fbd4a1e99e_istockphoto-1134709752-2048x2048.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/30e85dcd-1e2a-4e8e-833d-d7fbd4a1e99e_istockphoto-1134709752-2048x2048.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\30e85dcd-1e2a-4e8e-833d-d7fbd4a1e99e_istockphoto-1134709752-2048x2048.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\314fc056-4c97-4a8a-a994-d2a604391d89_Screenshot 2024-07-05 114407.png))">
       <SourceType>Package</SourceType>
       <SourceId>MedicalServices</SourceId>
@@ -960,6 +976,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\314fc056-4c97-4a8a-a994-d2a604391d89_Screenshot 2024-07-05 114407.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\3ab86e71-c8eb-4166-9efb-b8679dfd3525_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/3ab86e71-c8eb-4166-9efb-b8679dfd3525_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\3ab86e71-c8eb-4166-9efb-b8679dfd3525_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\401a6b7d-7b93-44e0-96bc-bcf6aef3fbf9_Screenshot 2024-05-24 190444.png))">
       <SourceType>Package</SourceType>
       <SourceId>MedicalServices</SourceId>
@@ -975,6 +1007,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\401a6b7d-7b93-44e0-96bc-bcf6aef3fbf9_Screenshot 2024-05-24 190444.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\421d6b32-617b-416f-b6a6-b3fd5b866d9f_istockphoto-1413085901-2048x2048.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/421d6b32-617b-416f-b6a6-b3fd5b866d9f_istockphoto-1413085901-2048x2048.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\421d6b32-617b-416f-b6a6-b3fd5b866d9f_istockphoto-1413085901-2048x2048.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\48f85461-c4e1-4d93-bfe3-860f0d7b233e_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/48f85461-c4e1-4d93-bfe3-860f0d7b233e_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\48f85461-c4e1-4d93-bfe3-860f0d7b233e_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\4bfc7b16-0343-4f64-9b02-426233f535a7_Screenshot 2024-07-05 114407.png))">
       <SourceType>Package</SourceType>
@@ -1024,6 +1088,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\6603c901-7d65-41bb-84b0-ae4726581f05_٢٠٢٣-٠٧-١٢ at ٢١-٥٩-٤٧.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\6a8efff8-6ec5-40a4-aebf-6470927362ce_Screenshot 2025-02-10 183402.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/6a8efff8-6ec5-40a4-aebf-6470927362ce_Screenshot 2025-02-10 183402.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\6a8efff8-6ec5-40a4-aebf-6470927362ce_Screenshot 2025-02-10 183402.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\7275ace1-4a33-4643-82d0-ff37a07dd6ca_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/7275ace1-4a33-4643-82d0-ff37a07dd6ca_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\7275ace1-4a33-4643-82d0-ff37a07dd6ca_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\7cafc34c-bbee-46f3-8d7f-521f2cc10c18_Screenshot 2024-07-22 175641.png))">
       <SourceType>Package</SourceType>
       <SourceId>MedicalServices</SourceId>
@@ -1072,6 +1168,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\8776ba61-c656-4010-a4bc-2a0c7622d00d_Screenshot 2024-05-06 173617.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\8c1ec3c1-37d3-4aa4-a890-24a476e827bd_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/8c1ec3c1-37d3-4aa4-a890-24a476e827bd_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\8c1ec3c1-37d3-4aa4-a890-24a476e827bd_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\9602552e-e1bb-45cb-b063-a74c6a06a849_istockphoto-1461317250-2048x2048.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/9602552e-e1bb-45cb-b063-a74c6a06a849_istockphoto-1461317250-2048x2048.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\9602552e-e1bb-45cb-b063-a74c6a06a849_istockphoto-1461317250-2048x2048.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\a271e622-94a1-44d4-ae5d-d2b46d946ec8_Screenshot 2024-03-24 164317.png))">
       <SourceType>Package</SourceType>
       <SourceId>MedicalServices</SourceId>
@@ -1087,6 +1215,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\a271e622-94a1-44d4-ae5d-d2b46d946ec8_Screenshot 2024-03-24 164317.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\a6aa4b3f-7ac3-4a38-b1c4-af3488d0490f_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/a6aa4b3f-7ac3-4a38-b1c4-af3488d0490f_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\a6aa4b3f-7ac3-4a38-b1c4-af3488d0490f_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\a9ece0bf-f7a6-443c-b648-6772e4183b7b_Screenshot (23).png))">
       <SourceType>Package</SourceType>
@@ -1183,6 +1327,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\e1bd0d09-6b4a-493a-8680-d633b722424a_Screenshot 2025-02-10 183317.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\e2f0b666-24d6-46e4-bd8e-59c37cccf59c_istockphoto-503663386-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalServices</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalServices</BasePath>
+      <RelativePath>Images/Imagesadmin/e2f0b666-24d6-46e4-bd8e-59c37cccf59c_istockphoto-503663386-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\e2f0b666-24d6-46e4-bd8e-59c37cccf59c_istockphoto-503663386-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Imagesadmin\ef4941a7-68ee-4ec3-b15b-2a005ccc2baa_Screenshot (24).png))">
       <SourceType>Package</SourceType>

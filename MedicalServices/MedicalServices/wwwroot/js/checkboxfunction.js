@@ -1,6 +1,6 @@
 ﻿function checkbox() {
 
-
+    const firstBoxes = document.querySelector(".cards-container .container .boxes").cloneNode(true);
     let allCheckBoxes = document.querySelectorAll(".cards-container .container .searchitem .catigorys .catigory");
     let containerBox = document.querySelector(".cards-container .container .boxes");
     let BranchID = document.querySelector(".box .Branch-Id").value;
@@ -43,16 +43,18 @@
 
 
         if (activeIds.length == 0) {
-            //print all services in this branch
-            $.ajax({
-                url: "/Branch/RelatedService",
-                data: { "id": parseInt(BranchID) }
-                , success: function (result) {
-                    containerBox.innerHTML += result;
-                    fixBox();
-                }
-            }
-            );
+            ////print all services in this branch
+            //$.ajax({
+            //    url: "/Branch/RelatedService",
+            //    data: { "id": parseInt(BranchID) }
+            //    , success: function (result) {
+            //        containerBox.innerHTML += result;
+            //        fixBox();
+            //    }
+            //}
+            //);
+            containerBox.appendChild(firstBoxes);
+            fixBox();
         }
 
     }

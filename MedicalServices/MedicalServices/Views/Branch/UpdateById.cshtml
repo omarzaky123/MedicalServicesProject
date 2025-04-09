@@ -1,5 +1,5 @@
-﻿@model Branch
-    <form asp-action="Update" asp-route-id="@Model.ID"
+﻿@model BranchVm
+    <form asp-action="Update" asp-route-id="@ViewBag.Id"
     asp-route-CurrentPage="@(ViewBag.CurrentPage)"
     asp-route-Sort="@ViewBag.Sort" class="disapper-form" enctype="multipart/form-data">
     <div class="text">
@@ -13,9 +13,9 @@
         <span asp-validation-for="Location"></span>
     </div>
     <div class="text">
-        <label asp-for="ContactPhone"></label>
-        <input asp-for="ContactPhone" />
-        <span asp-validation-for="ContactPhone"></span>
+        <label asp-for="ContanctPhone"></label>
+        <input asp-for="ContanctPhone" />
+        <span asp-validation-for="ContanctPhone"></span>
     </div>
     <div class="text">
         <label asp-for="Image"></label>

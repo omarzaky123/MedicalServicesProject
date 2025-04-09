@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|d:\\asp.net course\\myprojects\\medicalservices\\medicalservices\\medicalservices\\migrations\\20250212082022_bgswithanid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|solutionrelative:medicalservices\\migrations\\20250212082022_bgswithanid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|d:\\asp.net course\\myprojects\\medicalservices\\medicalservices\\medicalservices\\models\\branchgusetservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|solutionrelative:medicalservices\\models\\branchgusetservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|d:\\asp.net course\\myprojects\\medicalservices\\medicalservices\\medicalservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|solutionrelative:medicalservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|d:\\asp.net course\\myprojects\\medicalservices\\medicalservices\\medicalservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3745D877-F967-420E-ABB6-2A81D4AFB746}|MedicalServices\\MedicalServices.csproj|solutionrelative:medicalservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,55 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250212082022_BGSWithAnID.cs",
-              "DocumentMoniker": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Migrations\\20250212082022_BGSWithAnID.cs",
-              "RelativeDocumentMoniker": "MedicalServices\\Migrations\\20250212082022_BGSWithAnID.cs",
-              "ToolTip": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Migrations\\20250212082022_BGSWithAnID.cs",
-              "RelativeToolTip": "MedicalServices\\Migrations\\20250212082022_BGSWithAnID.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T21:08:11.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BranchGusetServices.cs",
-              "DocumentMoniker": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Models\\BranchGusetServices.cs",
-              "RelativeDocumentMoniker": "MedicalServices\\Models\\BranchGusetServices.cs",
-              "ToolTip": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Models\\BranchGusetServices.cs",
-              "RelativeToolTip": "MedicalServices\\Models\\BranchGusetServices.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:54:06.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Program.cs",
-              "RelativeDocumentMoniker": "MedicalServices\\Program.cs",
-              "ToolTip": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\Program.cs",
-              "RelativeToolTip": "MedicalServices\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:32:42.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\appsettings.json",
-              "RelativeDocumentMoniker": "MedicalServices\\appsettings.json",
-              "ToolTip": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\appsettings.json",
-              "RelativeToolTip": "MedicalServices\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T19:32:17.043Z"
             }
           ]
         }

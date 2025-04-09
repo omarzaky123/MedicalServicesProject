@@ -55,7 +55,7 @@
                                 RemainTime = appointmentDate.Value - DateTime.Now;
                             }
                         }
-                        @if (RemainTime.HasValue && RemainTime.Value.Days >= 0 && RemainTime.Value.Hours > 0 && RemainTime.Value.Minutes > 0)
+                        @if (RemainTime.HasValue && RemainTime.Value.Days >= 0 && RemainTime.Value.Hours >= 0 && RemainTime.Value.Minutes >= 0)
                         {
                             <p class="text">@(RemainTime?.Days) Day @(RemainTime?.Hours) hrs @(RemainTime?.Minutes) Min</p>
                         }

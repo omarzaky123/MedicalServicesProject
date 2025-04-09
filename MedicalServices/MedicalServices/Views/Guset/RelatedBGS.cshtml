@@ -23,6 +23,7 @@
                 @{
                     DateTime? appointmentDate = branchGusetService?.DateBranch?.Date?.AppoinmentDate;
                     TimeSpan? RemainTime = null;
+                    bool Expire = false;
                     if (appointmentDate.HasValue)
                     {
                         RemainTime = branchGusetService.DateBranch.Date.AppoinmentDate - DateTime.Now;
@@ -35,15 +36,19 @@
                 }
                 else
                 {
+                    Expire = true;
                     <p class="name">The Date Has Expired</p>
                 }
-                <div class="controls">
-                    <div class="delete">
+                @if (!Expire)
+                {
+                    <div class="controls">
+                        <div class="delete">
                         <a asp-action="DeleteGuset" asp-controller="BranchGusetService"
                            asp-route-bgsid="@branchGusetService.ID" asp-route-gusetid="@branchGusetService.GusetID"
                            asp-route-datebranchid="@branchGusetService.DateBranchID">&#10007</a>
                     </div>
                 </div>
+                }
 
                 
             </div>

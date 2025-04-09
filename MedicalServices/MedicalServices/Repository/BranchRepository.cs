@@ -154,6 +154,20 @@ namespace MedicalServices.Repository
                 .ToList();
         }
 
+        public void Update(int id, Branch newBranch)
+        {
+            Branch oldBranch = context.Branchs.FirstOrDefault(x => x.ID == id);
+            if (oldBranch != null)
+            {
+                oldBranch.Name = newBranch.Name;
+                oldBranch.ContactPhone = newBranch.ContactPhone;
+                oldBranch.Image = newBranch.Image;
+                oldBranch.Location = newBranch.Location;
+            }
+            context.SaveChanges();
+
+        }
+
         public void Delete(int id)
         {
             Branch branch = context.Branchs.FirstOrDefault(X => X.ID == id);
@@ -167,7 +181,7 @@ namespace MedicalServices.Repository
                 List<Doctor> Doctors = GetRelatedDoctors(id);
                 foreach (var service in services)
                 {
-                    service.Branch = null;
+                    context.Remove(service);
                     context.SaveChanges();
                 }
                 foreach (var order in BGS)

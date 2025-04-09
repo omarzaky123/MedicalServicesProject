@@ -162,6 +162,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcU2VhcmNoQnlOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/SearchByNameGuset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcU2VhcmNoQnlOYW1lR3VzZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/UpdateById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcVXBkYXRlQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

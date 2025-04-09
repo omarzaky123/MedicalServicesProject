@@ -15,8 +15,8 @@
                 @foreach (Catigory catigory in ViewBag.BranchCatigorys)
                 {
                     <div class="catigory">
-                        <label for="@catigory.ID">@catigory.Name</label>
-                        <input type="checkbox" id="@catigory.ID">
+                        <label for="@(catigory?.ID??0)">@(catigory?.Name??"")</label>
+                        <input type="checkbox" id="@(catigory?.ID??0)">
                     </div>
                     
                 }
@@ -33,20 +33,61 @@
                     <img src="~/@medicalService.Image" alt="" />
                 </div>
                 <div class="text" style="padding:15px;">
-                    <h3 style="font-size:20px;">@medicalService.Name</h3>
-                    <p>@medicalService.Price</p>
+                    <h3 style="font-size:20px;">@(medicalService?.Name??"")</h3>
+                    <p>@(medicalService?.Price??0)</p>
                     <div class="links">
-                    <a asp-controller="MedicalService" asp-action="GetById"  asp-route-id="@medicalService.ID">More Details</a>
+                    <a asp-controller="MedicalService" asp-action="GetById"  asp-route-id="@(medicalService?.ID??0)">More Details</a>
                     </div>
                 </div>
-                <input type="hidden" class="Branch-Id" value="@medicalService.BranchID" />
+                <input type="hidden" class="Branch-Id" value="@(medicalService?.BranchID??0)" />
             </div>
             
         }
         </div>
     </div>
 </div>
+<div class="container-holder" style="background-color:#f5fbff;">
 
+    <div class="container">
+
+        <div class="pagination-items">
+            @if (ViewBag.Pagination.CurrentPage > 1)
+            {
+                <div class="pag-item">
+                    <a asp-action="SeeMedicalServcie"
+                       asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage-1)" asp-route-id="@ViewBag.BranchId">Privous</a>
+                </div>
+            }
+
+            @for (int i = 1; i <= ViewBag.Pagination.TotalPages; i++)
+            {
+                if (i == ViewBag.Pagination.CurrentPage)
+                {
+                    <div class="pag-item active">
+                        <a asp-action="SeeMedicalServcie"
+                           asp-route-CurrentPage="@i" asp-route-id="@ViewBag.BranchId">@i</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="pag-item">
+                        <a asp-action="SeeMedicalServcie"
+                           asp-route-CurrentPage="@i" asp-route-id="@ViewBag.BranchId">@i</a>
+                    </div>
+                }
+            }
+            @if (ViewBag.Pagination.CurrentPage < ViewBag.Pagination.TotalPages)
+            {
+                <div class="pag-item">
+                    <a asp-action="SeeMedicalServcie"
+                       asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage+1)" asp-route-id="@ViewBag.BranchId">Next</a>
+                </div>
+            }
+        </div>
+
+    </div>
+
+</div>
 
 
 
