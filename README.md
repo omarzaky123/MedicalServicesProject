@@ -3,7 +3,8 @@
 A **secure, role-based** web application for multi-branch medical service bookings with full-featured dashboards for different user roles.
 
 ![ASP.NET Core](https://img.shields.io/badge/.NET-8-512BD4?logo=dotnet)
-![SQL Server](https://img.shields.io/badge/SQL_Server-2019-CC2927?logo=microsoft-sql-server)
+![SQL Server](https://img.shields.io/badge/SQL_Server-2022-CC2927?logo=microsoft-sql-server)
+![EF Core](https://img.shields.io/badge/Entity_Framework-8-512BD4?logo=dotnet)
 ![MVC](https://img.shields.io/badge/Architecture-MVC-5C2D91?logo=aspnet)
 
 ## 🔥 Key Features
@@ -13,6 +14,8 @@ A **secure, role-based** web application for multi-branch medical service bookin
 - **Real-Time Appointment System**
 - **Interactive Dashboards**
 - **Secure Authentication**
+- **JSON Document Storage** (EF Core 8)
+- **Hierarchical Data Support**
 
 ## 🛠 Tech Stack
 
@@ -26,13 +29,26 @@ A **secure, role-based** web application for multi-branch medical service bookin
 ### Backend  
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET_MVC-8-512BD4?logo=aspnet)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework_Core-6.0-512BD4?logo=dotnet)
+![Entity Framework](https://img.shields.io/badge/Entity_Framework_Core-8.0-512BD4?logo=dotnet)
 
 ### Database  
-![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-2019-CC2927?logo=microsoft-sql-server)
+![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-2022-CC2927?logo=microsoft-sql-server)
+![JSON Support](https://img.shields.io/badge/JSON-Native_Support-000000?logo=json)
 
 ### Architecture  
 ![MVC Pattern](https://img.shields.io/badge/Pattern-MVC-5C2D91?logo=aspnet)
+
+---
+
+## 🚀 New in This Version
+
+- **SQL Server 2022** with enhanced performance and security
+- **Entity Framework Core 8** with:
+  - Improved JSON column support
+  - Better hierarchical data handling
+  - Enhanced LINQ translation
+- **Modernized data access patterns**
+- **Optimized query performance**
 
 ---
 
@@ -51,11 +67,11 @@ A **secure, role-based** web application for multi-branch medical service bookin
 
 ### ORM Mapping
 ![Mapping Diagram](images/Mappingpng.png)  
-*Entity Framework Core code-first implementation*
+*Entity Framework Core 8 code-first implementation with SQL Server 2022*
 
 ---
 
-## 🚀 Getting Started
+## 🛠 Getting Started
 
 ```bash
 # Clone repository
@@ -63,6 +79,9 @@ git clone https://github.com/your-username/MedicalServicesProject.git
 
 # Restore packages
 dotnet restore
+
+# Apply migrations (requires SQL Server 2022)
+dotnet ef database update
 
 # Run application
 dotnet run
