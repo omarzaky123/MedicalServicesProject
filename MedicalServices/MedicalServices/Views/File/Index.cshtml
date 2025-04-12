@@ -1,0 +1,120 @@
+﻿@model List<UplodedFile>
+@{
+    Layout = "Admin/_AdminLayout";
+}
+
+<div class="new">
+    <a class="input-new" asp-action="Upload">Upload</a>
+</div>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>OrderID</td>
+                <td>SentEmail</td>
+                <td>Upload</td>
+                <td>Download</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (UplodedFile file in Model)
+            {
+                <tr>
+
+                    <td class="title">
+                        <div class="text">
+                            <h5>@file.FileName</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@file.BranchGusetService.ID</p>
+                    </td>
+                    <td class="role">
+                            @if (file.BranchGusetService.EmailSent == true)
+                            {
+                                <p class="text true-state">Sent</p>
+                            }
+                            else
+                            {
+                                <p class="text false-state">Not Sent</p>
+                            }
+                    </td>
+                    <td class="role">
+                        @if (file.BranchGusetService.Uploaded == true)
+                        {
+                            <p class="text true-state">Upload</p>
+                        }
+                        else
+                        {
+                            <p class="text false-state">Not Upload</p>
+                        }
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="edit" asp-action="Download"
+                            asp-route-fileName="@file.StoredFileName" >Download</a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="edit" asp-action="FillEmail" 
+                            asp-controller="Email"
+                               asp-route-Bgs="@file.BranchGusetService.ID"
+                            asp-route-email="@file.BranchGusetService.Guset.User.Email"
+                            asp-route-defaultbody="hello mr @(file?.BranchGusetService?.Guset?.User?.UserName??"") here you attachments for your medicalservices @(file?.BranchGusetService?.MedicalService?.Name??"")"
+                            asp-route-defaultsubj="MedicalServices Attatchments">Email</a>
+                        </p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="Delete"
+                               asp-route-fileName="@file.StoredFileName" asp-route-BGS="@file.BranchGusetService.ID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<div class="pagination-items">
+    @if (ViewBag.Pagination.CurrentPage > 1)
+    {
+        <div class="pag-item">
+            <a asp-action="Index"
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage-1)">Privous</a>
+        </div>
+    }
+
+    @for (int i = 1; i <= ViewBag.Pagination.TotalPages; i++)
+    {
+        if (i == ViewBag.Pagination.CurrentPage)
+        {
+            <div class="pag-item active">
+                <a asp-action="Index"
+                   asp-route-CurrentPage="@i">@i</a>
+            </div>
+        }
+        else
+        {
+            <div class="pag-item">
+                <a asp-action="Index"
+                   asp-route-CurrentPage="@i">@i</a>
+            </div>
+        }
+    }
+    @if (ViewBag.Pagination.CurrentPage < ViewBag.Pagination.TotalPages)
+    {
+        <div class="pag-item">
+            <a asp-action="Index"
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage+1)">Next</a>
+        </div>
+    }
+</div>
+@if (TempData["success"] != null)
+{
+    <script src="~/js/confirmmsg.js"></script>
+}
+
+

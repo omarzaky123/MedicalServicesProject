@@ -1,0 +1,45 @@
+﻿@model RegisterGusetVm
+<form asp-action="Register">
+    
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Address"></label>
+            <input asp-for="Address" />
+            <span asp-validation-for="Address"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Age"></label>
+            <input asp-for="Age" />
+            <span asp-validation-for="Age"></span>
+        </div>
+        <div class="submit">
+            <a asp-action="Login">Login</a>
+            <input type="submit" />
+        </div>
+        <div asp-validation-summary="All" class="text" style="color:red"></div>
+    </div>
+    
+</form>
+
+<partial name="_ValidationScriptsPartial"></partial>
+

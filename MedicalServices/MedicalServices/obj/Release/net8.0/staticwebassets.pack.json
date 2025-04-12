@@ -1,0 +1,885 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\MedicalServices.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MedicalServices.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\08d5c610-c6e1-4b56-a2a0-46945a94f431_Screenshot 2025-02-10 183317.png",
+      "PackagePath": "staticwebassets\\Images\\08d5c610-c6e1-4b56-a2a0-46945a94f431_Screenshot 2025-02-10 183317.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\0eb70901-b73f-493c-9f56-7f6f14d2c880_Screenshot 2023-11-15 110138.png",
+      "PackagePath": "staticwebassets\\Images\\0eb70901-b73f-493c-9f56-7f6f14d2c880_Screenshot 2023-11-15 110138.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\11c47a64-1e08-49ab-be13-17ffad5b51d7_Screenshot 2024-09-11 152710.png",
+      "PackagePath": "staticwebassets\\Images\\11c47a64-1e08-49ab-be13-17ffad5b51d7_Screenshot 2024-09-11 152710.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\2.png",
+      "PackagePath": "staticwebassets\\Images\\2.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\432ca44a-33f2-43b1-861c-6761337e2a9d_5294b0124ee4eb59e881ceac91d65101.jpg",
+      "PackagePath": "staticwebassets\\Images\\432ca44a-33f2-43b1-861c-6761337e2a9d_5294b0124ee4eb59e881ceac91d65101.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\4d4fe677-eed0-4ecb-b7d9-76e1d00d94ff_Screenshot 2025-02-10 183317.png",
+      "PackagePath": "staticwebassets\\Images\\4d4fe677-eed0-4ecb-b7d9-76e1d00d94ff_Screenshot 2025-02-10 183317.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\595972eb-df64-4bb4-83f1-d57103d30cd3_5294b0124ee4eb59e881ceac91d65101.jpg",
+      "PackagePath": "staticwebassets\\Images\\595972eb-df64-4bb4-83f1-d57103d30cd3_5294b0124ee4eb59e881ceac91d65101.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\81394b34-33a7-4581-8ade-86cb89853afc_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg",
+      "PackagePath": "staticwebassets\\Images\\81394b34-33a7-4581-8ade-86cb89853afc_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\81e650a9-4873-4aa7-a879-7d19866d4508_Screenshot 2023-11-01 190530.png",
+      "PackagePath": "staticwebassets\\Images\\81e650a9-4873-4aa7-a879-7d19866d4508_Screenshot 2023-11-01 190530.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\9c95de16-6372-4c48-9e07-bf5d2619353b_Screenshot (11).png",
+      "PackagePath": "staticwebassets\\Images\\9c95de16-6372-4c48-9e07-bf5d2619353b_Screenshot (11).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin046461a0-a3bb-40be-9717-1343c0951ff6_Screenshot 2024-05-06 185310.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin046461a0-a3bb-40be-9717-1343c0951ff6_Screenshot 2024-05-06 185310.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin1874bfaa-02a2-46dc-824b-630db36a392d_Screenshot 2024-07-22 175641.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin1874bfaa-02a2-46dc-824b-630db36a392d_Screenshot 2024-07-22 175641.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin416c652e-e198-4187-9f51-2e7d6d15473b_Screenshot 2024-07-05 114407.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin416c652e-e198-4187-9f51-2e7d6d15473b_Screenshot 2024-07-05 114407.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin50379b7f-ed35-49b8-bb04-ecffafe1e430_Screenshot 2024-07-05 114407.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin50379b7f-ed35-49b8-bb04-ecffafe1e430_Screenshot 2024-07-05 114407.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\0701f373-5647-4934-a6d1-3e74179b738d_Screenshot 2023-11-01 190530.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\0701f373-5647-4934-a6d1-3e74179b738d_Screenshot 2023-11-01 190530.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\17ad308e-e8e3-4ec7-9430-b4e0add27d14_istockphoto-1134709752-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\17ad308e-e8e3-4ec7-9430-b4e0add27d14_istockphoto-1134709752-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\2238a350-1b8f-44fb-a8a2-6d89700d42d1_istockphoto-471348782-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\2238a350-1b8f-44fb-a8a2-6d89700d42d1_istockphoto-471348782-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\25c8db83-5739-4bcc-83ba-28ebeda72472_istockphoto-147787621-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\25c8db83-5739-4bcc-83ba-28ebeda72472_istockphoto-147787621-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\275f3f9a-bc28-42ab-813c-ccfbe33a8f30_Screenshot 2023-10-25 184019.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\275f3f9a-bc28-42ab-813c-ccfbe33a8f30_Screenshot 2023-10-25 184019.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\2af6d804-7c78-4174-9f7f-3333631d1664_istockphoto-91584560-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\2af6d804-7c78-4174-9f7f-3333631d1664_istockphoto-91584560-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\30e85dcd-1e2a-4e8e-833d-d7fbd4a1e99e_istockphoto-1134709752-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\30e85dcd-1e2a-4e8e-833d-d7fbd4a1e99e_istockphoto-1134709752-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\314fc056-4c97-4a8a-a994-d2a604391d89_Screenshot 2024-07-05 114407.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\314fc056-4c97-4a8a-a994-d2a604391d89_Screenshot 2024-07-05 114407.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\3ab86e71-c8eb-4166-9efb-b8679dfd3525_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\3ab86e71-c8eb-4166-9efb-b8679dfd3525_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\3d9000c0-84d0-4ce3-9762-e4301c52e78e_istockphoto-471348782-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\3d9000c0-84d0-4ce3-9762-e4301c52e78e_istockphoto-471348782-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\401a6b7d-7b93-44e0-96bc-bcf6aef3fbf9_Screenshot 2024-05-24 190444.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\401a6b7d-7b93-44e0-96bc-bcf6aef3fbf9_Screenshot 2024-05-24 190444.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\421d6b32-617b-416f-b6a6-b3fd5b866d9f_istockphoto-1413085901-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\421d6b32-617b-416f-b6a6-b3fd5b866d9f_istockphoto-1413085901-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\48f85461-c4e1-4d93-bfe3-860f0d7b233e_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\48f85461-c4e1-4d93-bfe3-860f0d7b233e_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\4bfc7b16-0343-4f64-9b02-426233f535a7_Screenshot 2024-07-05 114407.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\4bfc7b16-0343-4f64-9b02-426233f535a7_Screenshot 2024-07-05 114407.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\5294b0124ee4eb59e881ceac91d65101.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\5294b0124ee4eb59e881ceac91d65101.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\6603c901-7d65-41bb-84b0-ae4726581f05_٢٠٢٣-٠٧-١٢ at ٢١-٥٩-٤٧.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\6603c901-7d65-41bb-84b0-ae4726581f05_٢٠٢٣-٠٧-١٢ at ٢١-٥٩-٤٧.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\6a8efff8-6ec5-40a4-aebf-6470927362ce_Screenshot 2025-02-10 183402.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\6a8efff8-6ec5-40a4-aebf-6470927362ce_Screenshot 2025-02-10 183402.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\7060d7b0-61d2-4bf1-88c6-b8f8d76f0847_istockphoto-494057938-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\7060d7b0-61d2-4bf1-88c6-b8f8d76f0847_istockphoto-494057938-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\7275ace1-4a33-4643-82d0-ff37a07dd6ca_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\7275ace1-4a33-4643-82d0-ff37a07dd6ca_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\77ee0d2d-63cd-4eea-a25a-590917786a8b_istockphoto-91584560-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\77ee0d2d-63cd-4eea-a25a-590917786a8b_istockphoto-91584560-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\7cafc34c-bbee-46f3-8d7f-521f2cc10c18_Screenshot 2024-07-22 175641.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\7cafc34c-bbee-46f3-8d7f-521f2cc10c18_Screenshot 2024-07-22 175641.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\83b7989f-7cdd-45ba-84e3-6e06f68f6bcf_istockphoto-471348782-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\83b7989f-7cdd-45ba-84e3-6e06f68f6bcf_istockphoto-471348782-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\8627031b-fa9d-4062-918b-74fac3fd6171_Screenshot (14).png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\8627031b-fa9d-4062-918b-74fac3fd6171_Screenshot (14).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\8776ba61-c656-4010-a4bc-2a0c7622d00d_Screenshot 2024-05-06 173617.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\8776ba61-c656-4010-a4bc-2a0c7622d00d_Screenshot 2024-05-06 173617.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\8c1ec3c1-37d3-4aa4-a890-24a476e827bd_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\8c1ec3c1-37d3-4aa4-a890-24a476e827bd_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\9602552e-e1bb-45cb-b063-a74c6a06a849_istockphoto-1461317250-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\9602552e-e1bb-45cb-b063-a74c6a06a849_istockphoto-1461317250-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\9efd5b18-ea03-489b-889d-74e6ca0dd9af_istockphoto-125741758-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\9efd5b18-ea03-489b-889d-74e6ca0dd9af_istockphoto-125741758-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\a271e622-94a1-44d4-ae5d-d2b46d946ec8_Screenshot 2024-03-24 164317.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\a271e622-94a1-44d4-ae5d-d2b46d946ec8_Screenshot 2024-03-24 164317.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\a6aa4b3f-7ac3-4a38-b1c4-af3488d0490f_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\a6aa4b3f-7ac3-4a38-b1c4-af3488d0490f_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\a9ece0bf-f7a6-443c-b648-6772e4183b7b_Screenshot (23).png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\a9ece0bf-f7a6-443c-b648-6772e4183b7b_Screenshot (23).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\ab41caeb-7f79-4208-a60c-3a3765706eed_after.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\ab41caeb-7f79-4208-a60c-3a3765706eed_after.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\ae103756-2f2f-4781-b29d-f13075c1e735_istockphoto-125741758-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\ae103756-2f2f-4781-b29d-f13075c1e735_istockphoto-125741758-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\b4bcbc34-e14e-4557-9e2c-f1ed17e5edc0_istockphoto-125741758-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\b4bcbc34-e14e-4557-9e2c-f1ed17e5edc0_istockphoto-125741758-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\b8a3c5bf-21be-4dde-8e00-4c093640180a_Screenshot (23).png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\b8a3c5bf-21be-4dde-8e00-4c093640180a_Screenshot (23).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\be5693c6-4dc5-4715-8426-33f5b3cc9278_36626.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\be5693c6-4dc5-4715-8426-33f5b3cc9278_36626.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\doctor.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\doctor.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\e1bd0d09-6b4a-493a-8680-d633b722424a_Screenshot 2025-02-10 183317.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\e1bd0d09-6b4a-493a-8680-d633b722424a_Screenshot 2025-02-10 183317.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\e2f0b666-24d6-46e4-bd8e-59c37cccf59c_istockphoto-503663386-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\e2f0b666-24d6-46e4-bd8e-59c37cccf59c_istockphoto-503663386-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\e49b19fb-6326-4b66-bd05-8c4208059366_istockphoto-471348782-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\e49b19fb-6326-4b66-bd05-8c4208059366_istockphoto-471348782-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\ef4941a7-68ee-4ec3-b15b-2a005ccc2baa_Screenshot (24).png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\ef4941a7-68ee-4ec3-b15b-2a005ccc2baa_Screenshot (24).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\f1285813-f4ba-4439-8bd0-80e761674c33_istockphoto-488575186-612x612.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\f1285813-f4ba-4439-8bd0-80e761674c33_istockphoto-488575186-612x612.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\f3d70e80-73c1-477e-a4da-b7d04670406a_Screenshot 2023-10-25 184136.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\f3d70e80-73c1-477e-a4da-b7d04670406a_Screenshot 2023-10-25 184136.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\f531a24a-57a2-4eb9-8d1a-5d3581322986_Screenshot (24).png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\f531a24a-57a2-4eb9-8d1a-5d3581322986_Screenshot (24).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\fc668400-3d95-4970-b49c-6c919c482840_sheet_sol (1).pdf",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\fc668400-3d95-4970-b49c-6c919c482840_sheet_sol (1).pdf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\logo.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Imagesadmin\\uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagesadmin\\uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\Landing.png",
+      "PackagePath": "staticwebassets\\Images\\Landing.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\M1.jpg",
+      "PackagePath": "staticwebassets\\Images\\M1.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\branchbox.png",
+      "PackagePath": "staticwebassets\\Images\\branchbox.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\business.png",
+      "PackagePath": "staticwebassets\\Images\\business.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\c835f718-1b01-4e56-8df4-8e5b1083d4c6_Screenshot 2024-05-24 190753.png",
+      "PackagePath": "staticwebassets\\Images\\c835f718-1b01-4e56-8df4-8e5b1083d4c6_Screenshot 2024-05-24 190753.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\d15b277b-d16b-4530-95f4-ce8587a07eca_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg",
+      "PackagePath": "staticwebassets\\Images\\d15b277b-d16b-4530-95f4-ce8587a07eca_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\doctor.png",
+      "PackagePath": "staticwebassets\\Images\\doctor.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\emergency-1.png",
+      "PackagePath": "staticwebassets\\Images\\emergency-1.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\f2035e3e-abe2-4389-bb8a-d496c1a214a9_Screenshot 2024-07-05 114407.png",
+      "PackagePath": "staticwebassets\\Images\\f2035e3e-abe2-4389-bb8a-d496c1a214a9_Screenshot 2024-07-05 114407.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\f7b2621d-cddb-41da-9bc6-22895f32dd56_a.png",
+      "PackagePath": "staticwebassets\\Images\\f7b2621d-cddb-41da-9bc6-22895f32dd56_a.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\f7c5d3da-a529-48ec-b2d7-ecf7bcd0d2c8_Screenshot (11).png",
+      "PackagePath": "staticwebassets\\Images\\f7c5d3da-a529-48ec-b2d7-ecf7bcd0d2c8_Screenshot (11).png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\fe704354-9ecd-4056-a128-77826fad53eb_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg",
+      "PackagePath": "staticwebassets\\Images\\fe704354-9ecd-4056-a128-77826fad53eb_uchiha-itachi-hd-wallpaper-omrcptovpjwf6vib-omrcptovpjwf6vib.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\footer_logo.png",
+      "PackagePath": "staticwebassets\\Images\\footer_logo.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\information.png",
+      "PackagePath": "staticwebassets\\Images\\information.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\e3efahs2.faf",
+      "PackagePath": "staticwebassets\\Uploades\\e3efahs2.faf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\eb5k3g4r.eig",
+      "PackagePath": "staticwebassets\\Uploades\\eb5k3g4r.eig"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\eywooqf3.aqg",
+      "PackagePath": "staticwebassets\\Uploades\\eywooqf3.aqg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\kfad3r2b.wqe",
+      "PackagePath": "staticwebassets\\Uploades\\kfad3r2b.wqe"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\l1dtily2.fji",
+      "PackagePath": "staticwebassets\\Uploades\\l1dtily2.fji"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\m0pu1eo3.3yv",
+      "PackagePath": "staticwebassets\\Uploades\\m0pu1eo3.3yv"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\ogmw5ndq.gws",
+      "PackagePath": "staticwebassets\\Uploades\\ogmw5ndq.gws"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\rl33sodh.2wd",
+      "PackagePath": "staticwebassets\\Uploades\\rl33sodh.2wd"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\sgxlbuv5.con",
+      "PackagePath": "staticwebassets\\Uploades\\sgxlbuv5.con"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\Uploades\\ujj2gwsf.lqt",
+      "PackagePath": "staticwebassets\\Uploades\\ujj2gwsf.lqt"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\Landing.css",
+      "PackagePath": "staticwebassets\\css\\Landing.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\admin.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\bodyoverlay.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\bodyoverlay.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\box.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\box.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\buttons.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\buttons.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\charts.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\charts.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\flyform.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\flyform.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\form.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\form.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\input.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\input.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\interface.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\interface.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\menu.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\menu.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\pagination.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\scroll.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\scroll.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\states.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\states.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\admincss\\table.css",
+      "PackagePath": "staticwebassets\\css\\admincss\\table.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\basket.css",
+      "PackagePath": "staticwebassets\\css\\basket.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\bigfooter.css",
+      "PackagePath": "staticwebassets\\css\\bigfooter.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\branch.css",
+      "PackagePath": "staticwebassets\\css\\branch.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\business.css",
+      "PackagePath": "staticwebassets\\css\\business.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\calling.css",
+      "PackagePath": "staticwebassets\\css\\calling.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\cardscontainer.css",
+      "PackagePath": "staticwebassets\\css\\cardscontainer.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\detail.css",
+      "PackagePath": "staticwebassets\\css\\detail.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\docmed.css",
+      "PackagePath": "staticwebassets\\css\\docmed.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\doctor.css",
+      "PackagePath": "staticwebassets\\css\\doctor.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\emergency.css",
+      "PackagePath": "staticwebassets\\css\\emergency.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\info.css",
+      "PackagePath": "staticwebassets\\css\\info.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\css\\spinning.css",
+      "PackagePath": "staticwebassets\\css\\spinning.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\alert.js",
+      "PackagePath": "staticwebassets\\js\\alert.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\boxisone.js",
+      "PackagePath": "staticwebassets\\js\\boxisone.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\cardsliderfunction.js",
+      "PackagePath": "staticwebassets\\js\\cardsliderfunction.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\checkboxfunction.js",
+      "PackagePath": "staticwebassets\\js\\checkboxfunction.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\confirmmsg.js",
+      "PackagePath": "staticwebassets\\js\\confirmmsg.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\counttheservices.js",
+      "PackagePath": "staticwebassets\\js\\counttheservices.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\deletefunction.js",
+      "PackagePath": "staticwebassets\\js\\deletefunction.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\dropdownbutton.js",
+      "PackagePath": "staticwebassets\\js\\dropdownbutton.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\headerresponsive.js",
+      "PackagePath": "staticwebassets\\js\\headerresponsive.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\admin.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\admin.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\alertadmin.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\alertadmin.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\assigndatebranch.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\assigndatebranch.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\calculatetotal.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\calculatetotal.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\datebranchlocalstorge.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\datebranchlocalstorge.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\deletedashboard.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\deletedashboard.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\dropdownadmin.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\dropdownadmin.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\flyformopencat.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\flyformopencat.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\monthNet.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\monthNet.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\monthtotal.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\monthtotal.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\pirchart.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\pirchart.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\responsiveadmin.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\responsiveadmin.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\savesortstate.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\savesortstate.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\searchadmin.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\searchadmin.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\jsadmin\\trydropdown.js",
+      "PackagePath": "staticwebassets\\js\\jsadmin\\trydropdown.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\landingslider.js",
+      "PackagePath": "staticwebassets\\js\\landingslider.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\searchfunction.js",
+      "PackagePath": "staticwebassets\\js\\searchfunction.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\js\\spinning.js",
+      "PackagePath": "staticwebassets\\js\\spinning.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MedicalServices.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.MedicalServices.props",
+      "PackagePath": "build\\MedicalServices.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MedicalServices.props",
+      "PackagePath": "buildMultiTargeting\\MedicalServices.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.MedicalServices.props",
+      "PackagePath": "buildTransitive\\MedicalServices.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

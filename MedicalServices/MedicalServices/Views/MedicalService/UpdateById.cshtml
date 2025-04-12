@@ -1,0 +1,46 @@
+﻿@model MedicalServiceVm
+@{
+    List<Catigory> catigories = ViewBag.Collection.Catigorys;
+    List<Branch> branches = ViewBag.Collection.branches;
+    SelectList selectListItems01 = new SelectList(catigories, "ID", "Name");
+    SelectList selectListItems02 = new SelectList(branches, "ID", "Name");
+}
+<form id="formEdit" class="disapper-form" enctype="multipart/form-data">
+    <div class="text">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" />
+        <span asp-validation-for="Image"></span>
+    </div>
+    <div class="text">
+        <label asp-for="CatId">Catigory</label>
+        <select asp-items="selectListItems01" asp-for="CatId">
+        </select>
+    </div>
+    <div class="text">
+        <label asp-for="BranchId">Branch</label>
+        <select asp-items="selectListItems02" asp-for="BranchId">
+        </select>
+    </div>
+    <div class="text-area">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description"></span>
+    </div>
+    <div class="submit">
+        <input type="submit" />
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"></partial>
+}

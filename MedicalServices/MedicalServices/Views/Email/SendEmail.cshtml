@@ -1,0 +1,47 @@
+﻿@model EmailVm
+@{
+    ViewData["Title"] = "SendEmail";
+    Layout = "Admin/_AdminLayout";
+}
+
+<h2 class="name">SendEmail</h2>
+<form asp-action="SendEmail" enctype="multipart/form-data">
+    <div class="container">
+        <div class="text">
+            <label asp-for="ToEmail"></label>
+            <input asp-for="ToEmail" value="@(ViewBag?.email??"")" />
+            <span asp-validation-for="ToEmail"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Subject"></label>
+            <textarea asp-for="Subject"></textarea>
+            <span asp-validation-for="Subject"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Body"></label>
+            <textarea asp-for="Body"></textarea>
+            <span asp-validation-for="Body"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Attachments"></label>
+            <input asp-for="Attachments" type="file"  multiple/>
+            <span asp-validation-for="Attachments"></span>
+        </div>
+
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+
+    </div>
+
+</form>
+@section Scripts{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("Subject").value = "@Html.Raw(ViewBag?.defaultsubj ?? "")";
+            document.getElementById("Body").value = "@Html.Raw(ViewBag?.defaultbody ?? "")";
+        });
+    </script>
+<partial name="_ValidationScriptsPartial"></partial>
+}

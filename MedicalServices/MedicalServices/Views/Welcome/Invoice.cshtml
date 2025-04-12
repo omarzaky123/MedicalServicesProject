@@ -1,0 +1,51 @@
+﻿@model InvoiceVm
+@{
+    SelectList selectListItems = new SelectList(ViewBag.Dates, "ID", "Date.AppoinmentDate");
+}
+
+<form asp-action="Invoice" method="post" class="invoiceform">
+
+    <div class="container">
+        <div class="invoice-text">
+            <h2 class="main-title">Invoice</h2>
+        </div>
+        <div class="text">
+            <label asp-for="GusetName"></label>
+            <input readonly asp-for="GusetName" />
+            <span asp-validation-for="GusetName"></span>
+        </div>
+        <div class="text">
+            <label asp-for="BranchName"></label>
+            <input readonly asp-for="BranchName" />
+            <span asp-validation-for="BranchName"></span>
+        </div>
+        <div class="text">
+            <label asp-for="BranchLocation"></label>
+            <input readonly asp-for="BranchLocation" />
+            <span asp-validation-for="BranchLocation"></span>
+        </div>
+        <div class="text">
+            <label asp-for="MedicalServiceName"></label>
+            <input readonly asp-for="MedicalServiceName" />
+            <span asp-validation-for="MedicalServiceName"></span>
+        </div>
+        <div class="text">
+            <label asp-for="MedicalServicePrice"></label>
+            <input readonly asp-for="MedicalServicePrice" />
+            <span asp-validation-for="MedicalServicePrice"></span>
+        </div>
+        <div class="text">
+            <label asp-for="AppointmentDateID">AppointmentDate</label>
+            <select asp-items="selectListItems" asp-for="AppointmentDateID">
+                <option value="0">--Select A Date---</option>
+            </select>
+        </div>
+        <div class="submit">
+            <input type="submit"/>
+        </div>
+        <div asp-validation-summary="All" class="text" style="color:red"></div>
+    </div>
+
+</form>
+
+<partial name="_ValidationScriptsPartial"></partial>

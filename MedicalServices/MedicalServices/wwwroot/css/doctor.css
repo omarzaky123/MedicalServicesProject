@@ -1,0 +1,135 @@
+﻿/* start Doctor */
+.doctor {
+    padding-top: calc(var(--section-padding) + 80px);
+    padding-bottom: var(--section-padding);
+    border-top: 1px solid rgb(246, 243, 243);
+}
+
+    .doctor .container {
+        overflow: hidden;
+        position: relative;
+    }
+
+        .doctor .container .items {
+            margin-bottom: 20px;
+            /* background-color: red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .doctor .container .items h2 {
+                font-size: 35px;
+                font-weight: 500;
+            }
+
+            .doctor .container .items .clicks {
+                display: flex;
+            }
+
+                .doctor .container .items .clicks .right,
+                .doctor .container .items .clicks .left {
+                    background-color: white;
+                    padding: 10px 15px;
+                    border-radius: 7px;
+                    font-size: 21px;
+                    border: 1px solid #d2d2d2;
+                    color: #d2d2d2;
+                    cursor: pointer;
+                    transition: var(--main-transtion);
+                }
+
+                .doctor .container .items .clicks .left {
+                    margin-right: 10px;
+                }
+
+                    .doctor .container .items .clicks .left.disable,
+                    .doctor .container .items .clicks .right.disable {
+                        opacity: 0.5; /* Make it visually disabled */
+                        cursor: not-allowed; /* Show a disabled cursor */
+                        pointer-events: none;
+                    }
+
+
+                    .doctor .container .items .clicks .right:hover,
+                    .doctor .container .items .clicks .left:hover {
+                        color: white;
+                        background-color: var(--main-color);
+                    }
+
+        .doctor .container .boxes {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .doctor .container .boxes .box {
+                box-shadow: 2px 2px 3px #e6e6e6;
+                background-color: var(--section-color);
+                transition: var(--main-transtion);
+                overflow: hidden;
+                /
+            }
+
+                .doctor .container .boxes .box.active {
+                    transform: translate(100%);
+                }
+
+                .doctor .container .boxes .box:hover img {
+                    transform: scale(1.05);
+                }
+
+                .doctor .container .boxes .box:hover .text {
+                    background-color: var(--main-color);
+                }
+
+                    .doctor .container .boxes .box:hover .text h3,
+                    .doctor .container .boxes .box:hover .text p {
+                        color: white;
+                    }
+
+                .doctor .container .boxes .box img {
+                    max-width: 100%;
+                    transition: var(--main-transtion);
+                    width:250px;
+                }
+
+                .doctor .container .boxes .box .text {
+                    padding: 20px;
+                    text-align: center;
+                    transition: var(--main-transtion);
+                }
+
+                    .doctor .container .boxes .box .text h3 {
+                        font-size: 20;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                        transition: var(--main-transtion);
+                    }
+
+                        .doctor .container .boxes .box .text  p {
+                            transition: var(--main-transtion);
+                            font-size:12px;
+                            color:#777;
+                        }
+
+@media (max-width: 768px) {
+    .doctor .container .boxes {
+        flex-direction: column;
+    }
+
+    .doctor .container .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .doctor .container .items .clicks .right,
+        .doctor .container .items .clicks .left {
+            display: none;
+        }
+}
+
+
+/* End Doctor */

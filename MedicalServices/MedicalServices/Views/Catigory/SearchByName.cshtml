@@ -1,0 +1,33 @@
+﻿@model List<Catigory>
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Catigory catigory in Model)
+        {
+            <tr>
+                <td class="title">
+                    <div class="text">
+                        <h5>@catigory.Name</h5>
+                    </div>
+                </td>
+                <td class="role">
+                    <p class="text">@catigory.Description</p>
+                </td>
+                <td class="control">
+                    <p class="text"><a class="edit" id="@catigory.ID">Edit</a></p>
+                </td>
+                <td class="control">
+                    <p class="text"><a class="delete" asp-action="Delete" asp-controller="Catigory" asp-route-id="@catigory.ID"><i class="fa-solid fa-trash"></i></a></p>
+                </td>
+                <td class="control">
+                    <p class="text"><a class="detail" asp-action="GetByIdAdmin" asp-controller="Catigory" asp-route-id="@catigory.ID">Details</a></p>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

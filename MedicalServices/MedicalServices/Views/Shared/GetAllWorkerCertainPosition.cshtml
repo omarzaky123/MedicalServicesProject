@@ -1,0 +1,105 @@
+﻿@model List<IWorker>
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<h2 class="name">@ViewBag.Name</h2>
+<div class="sort">
+    <select id="sortDropdown" onchange="location = this.value;">
+        <option value="@Url.Action((string)ViewBag.Action, new { Sort = "" })">Sort</option>
+        <option value="@Url.Action((string)ViewBag.Action, new { Sort = "NameWorker" })">Sort By Name (Asc)</option>
+        <option value="@Url.Action((string)ViewBag.Action, new { Sort = "NameWorkerDes" })">Sort By Name (Desc)</option>
+        <option value="@Url.Action((string)ViewBag.Action, new { Sort = "Salary" })">Sort Salary</option>
+        <option value="@Url.Action((string)ViewBag.Action, new { Sort = "Age" })">Sort Age</option>
+    </select>
+</div>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Doctor</td>
+                <td>Branch</td>
+                <td>Image</td>
+                <td>Age</td>
+                <td>Salary</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (IWorker worker in Model)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(worker?.User?.UserName ?? "Not Found")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.Branch?.Name ?? "Not Found")</p>
+                    </td>
+                    <td class="person">
+                        <img src="~/@worker.User.Image" alt="Not Found" />
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.User?.Age?? 0)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(worker?.User?.Salary ?? 0)</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="delete"
+                               asp-action="@ViewBag.Delete"
+                               asp-controller="Workers" asp-route-id="@worker.UserID"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                    <td class="control">
+                            <p class="text">
+                                <a class="detail" asp-action="@ViewBag.Detail" asp-controller="Workers" asp-route-id="@worker.ID">Details</a>
+                            </p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="pagination-items">
+    @if (ViewBag.Pagination.CurrentPage > 1)
+    {
+        <div class="pag-item"><a  asp-action="@ViewBag.Action" asp-controller="Workers"
+            asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage-1)" asp-route-Sort="@ViewBag.Sort">Privous</a>
+        </div>
+    }
+
+    @for (int i = 1; i <= ViewBag.Pagination.TotalPages;i++)
+    {
+        if (i == ViewBag.Pagination.CurrentPage)
+        {
+            <div class="pag-item active">
+                <a asp-action="@ViewBag.Action" asp-controller="Workers"
+                   asp-route-CurrentPage="@i" asp-route-Sort="@ViewBag.Sort">@i</a>
+            </div>
+        }
+        else
+        {
+            <div class="pag-item">
+                <a asp-action="@ViewBag.Action" asp-controller="Workers"
+                   asp-route-CurrentPage="@i" asp-route-Sort="@ViewBag.Sort">@i</a>
+            </div>
+        }
+    }
+    @if (ViewBag.Pagination.CurrentPage < ViewBag.Pagination.TotalPages)
+    {
+        <div class="pag-item">
+            <a asp-action="@ViewBag.Action" asp-controller="Workers"
+               asp-route-CurrentPage="@(ViewBag.Pagination.CurrentPage+1)" asp-route-Sort="@ViewBag.Sort">Next</a>
+        </div>
+    }
+</div>
+
+@section FlyForm {
+    <div class="fly-form"></div>
+}
+@section Scripts {
+    <script src="/js/jsadmin/savesortstate.js"></script>
+    <script src="/js/jsadmin/searchadmin.js"></script>
+    <partial name="_ValidationScriptsPartial"></partial>
+}

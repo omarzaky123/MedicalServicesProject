@@ -1,0 +1,30 @@
+﻿@model BranchVm
+<form class="disapper-form" id="formEdit" enctype="multipart/form-data">
+    <div class="text">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" />
+        <span asp-validation-for="Location"></span>
+    </div>
+    <div class="text">
+        <label asp-for="ContanctPhone"></label>
+        <input asp-for="ContanctPhone" />
+        <span asp-validation-for="ContanctPhone"></span>
+    </div>
+    <div class="text">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" type="file" />
+        <span asp-validation-for="Image"></span>
+    </div>
+    <div class="submit">
+        <input type="submit"/>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"></partial>
+}

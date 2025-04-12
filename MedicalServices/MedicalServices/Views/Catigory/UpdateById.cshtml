@@ -1,0 +1,20 @@
+﻿@model CatigoryVm
+<form id="formEdit" class="disapper-form">
+    <div class="text">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="text-area">
+        <label asp-for="Description" ></label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description"></span>
+    </div>
+    <div class="submit">
+        <input type="submit" />
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"></partial>
+}

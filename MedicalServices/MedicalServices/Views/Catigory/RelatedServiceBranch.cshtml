@@ -1,0 +1,18 @@
+﻿@model List<MedicalService>
+
+	@foreach (MedicalService medicalService in Model)
+{
+    <div class="box">
+        <div class="image">
+            <img src="~/@medicalService.Image" alt="" />
+        </div>
+        <div class="text" style="padding:15px;">
+            <h3 style="font-size:20px;">@medicalService.Name</h3>
+            <p>@medicalService.Price</p>
+            <div class="links">
+                <a asp-controller="MedicalService" asp-action="GetById" asp-route-id="@medicalService.ID">More Details</a>
+            </div>
+        </div>
+    </div>
+
+}

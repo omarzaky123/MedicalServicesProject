@@ -1,0 +1,76 @@
+﻿@model List<BranchGusetService>
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Branch</td>
+            <td>Service</td>
+            <td>Date</td>
+            <td>RemainTime</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (BranchGusetService Bgs in Model)
+        {
+            <tr>
+                <td class="title">
+                    <div class="text">
+                        <h5>@(Bgs?.Guset?.User?.UserName ?? "Not Found")</h5>
+                    </div>
+                </td>
+                <td class="role">
+                    <p class="text">@(Bgs?.Branch?.Name ?? "Not Found")</p>
+                </td>
+                <td class="role">
+                    <p class="text">@(Bgs?.MedicalService?.Name ?? "Not Found")</p>
+                </td>
+                <td class="role">
+                    <p class="text">@(Bgs?.DateBranch?.Date?.AppoinmentDate.ToString()??"The Date Not exsists")</p>
+                </td>
+
+                <td class="role">
+                    @{
+                        DateTime? appointmentDate = Bgs?.DateBranch?.Date?.AppoinmentDate;
+                        TimeSpan? RemainTime = appointmentDate != null ? appointmentDate - DateTime.Now : null;
+                    }
+
+                    @if (RemainTime != null)
+                    {
+                        if (RemainTime.Value.TotalMilliseconds > 0)
+                        {
+                            <p class="text">
+                                @(RemainTime.Value.Days) Day @(RemainTime.Value.Hours) hrs @(RemainTime.Value.Minutes) Min
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="text">The Date Has Expired</p>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text">Appointment date not available</p>
+                    }
+                </td>
+                @if (User.IsInRole("SuperAdmin"))
+                {
+                    <td class="control">
+                        <p class="text">
+                        <a class="delete" asp-action="DeleteAdmin"
+                           asp-controller="BranchGusetService"
+                           asp-route-id="@Bgs.ID"
+                           asp-route-gusetid="@Bgs.GusetID"
+                           asp-route-datebranchid="@Bgs.DateBranchID"><i class="fa-solid fa-trash"></i></a>
+                    </p>
+                </td>
+                }
+                <td class="control">
+                    <p class="text">
+                        <a class="detail" asp-action="GetById" asp-route-id="@Bgs.ID">Details</a>
+                    </p>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
