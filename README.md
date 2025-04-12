@@ -17,6 +17,27 @@ A **secure, role-based** web application for multi-branch medical service bookin
 - **JSON Document Storage** (EF Core 8)
 - **Hierarchical Data Support**
 
+---
+
+## 🌐 Live Demo
+
+➡️ [http://medicalservices.runasp.net/](http://medicalservices.runasp.net/)  
+*(Test credentials available upon request)*
+
+---
+
+## 🗄 Database Design
+
+### Entity Relationship Diagram (ERD)
+![ERD Diagram](images/ERD.png)  
+*Visualizes all tables with relationships and constraints*
+
+### ORM Mapping
+![Mapping Diagram](images/Mappingpng.png)  
+*Entity Framework Core 8 code-first implementation with SQL Server 2022*
+
+---
+
 ## 🛠 Tech Stack
 
 ### Frontend  
@@ -49,25 +70,8 @@ A **secure, role-based** web application for multi-branch medical service bookin
   - Enhanced LINQ translation
 - **Modernized data access patterns**
 - **Optimized query performance**
-
----
-
-## 🌐 Live Demo
-
-➡️ [http://medicalservices.runasp.net/](http://medicalservices.runasp.net/)  
-*(Test credentials available upon request)*
-
----
-
-## 🗄 Database Design
-
-### Entity Relationship Diagram (ERD)
-![ERD Diagram](images/ERD.png)  
-*Visualizes all tables with relationships and constraints*
-
-### ORM Mapping
-![Mapping Diagram](images/Mappingpng.png)  
-*Entity Framework Core 8 code-first implementation with SQL Server 2022*
+- **Advanced ORM mapping capabilities**
+- **Native JSON operations in database queries**
 
 ---
 
