@@ -1,11 +1,5 @@
 # MedicalServicesProject 🌡️
 
-## 🌐 Live Demo - Try It Now!
-➡️ **[http://medicalservices.runasp.net/](http://medicalservices.runasp.net/)**  
-*(Test credentials available upon request)*
-
----
-
 A **secure, role-based** web application for multi-branch medical service bookings with full-featured dashboards for different user roles.
 
 ![ASP.NET Core](https://img.shields.io/badge/.NET-8-512BD4?logo=dotnet)
@@ -39,6 +33,13 @@ A **secure, role-based** web application for multi-branch medical service bookin
 
 ### Architecture  
 ![MVC Pattern](https://img.shields.io/badge/Pattern-MVC-5C2D91?logo=aspnet)
+
+---
+
+## 🌐 Live Demo
+
+➡️ [http://medicalservices.runasp.net/](http://medicalservices.runasp.net/)  
+*(Test credentials available upon request)*
 
 ---
 
