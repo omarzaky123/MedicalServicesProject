@@ -17,271 +17,271 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MedicalServices
 build_property.RootNamespace = MedicalServices
-build_property.ProjectDir = D:\asp.net course\myprojects\MedicalServices\MedicalServices\MedicalServices\
+build_property.ProjectDir = D:\asp.net course\myprojects\MedicalServicesGithub\MedicalServicesProject\MedicalServices\MedicalServices\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\asp.net course\myprojects\MedicalServices\MedicalServices\MedicalServices
+build_property.MSBuildProjectDirectory = D:\asp.net course\myprojects\MedicalServicesGithub\MedicalServicesProject\MedicalServices\MedicalServices
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Account/AssignRole.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Account/AssignRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBc3NpZ25Sb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Account/Login.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Account/Register.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/AdminWelcome/AdminHome.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/AdminWelcome/AdminHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5XZWxjb21lXEFkbWluSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/BranchGusetService/GetById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/BranchGusetService/GetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoR3VzZXRTZXJ2aWNlXEdldEJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/BranchGusetService/Index.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/BranchGusetService/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoR3VzZXRTZXJ2aWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/BranchGusetService/SearchByName.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/BranchGusetService/SearchByName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoR3VzZXRTZXJ2aWNlXFNlYXJjaEJ5TmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/GetByIdAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/GetByIdAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXEdldEJ5SWRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/Insert.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/RelatedCatigoryAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/RelatedCatigoryAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFJlbGF0ZWRDYXRpZ29yeUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/RelatedOrdersAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/RelatedOrdersAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFJlbGF0ZWRPcmRlcnNBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/RelatedService.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/RelatedService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFJlbGF0ZWRTZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/RelatedServiceAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/RelatedServiceAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFJlbGF0ZWRTZXJ2aWNlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/SearchByName.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/SearchByName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFNlYXJjaEJ5TmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Branch/UpdateById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Branch/UpdateById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXFVwZGF0ZUJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Catigory/GetByIdAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Catigory/GetByIdAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0aWdvcnlcR2V0QnlJZEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Catigory/Insert.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Catigory/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0aWdvcnlcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Catigory/RelatedServiceBranch.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Catigory/RelatedServiceBranch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0aWdvcnlcUmVsYXRlZFNlcnZpY2VCcmFuY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Catigory/SearchByName.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Catigory/SearchByName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0aWdvcnlcU2VhcmNoQnlOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Catigory/UpdateById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Catigory/UpdateById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0aWdvcnlcVXBkYXRlQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Date/AssignDatesForBranch.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Date/AssignDatesForBranch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVxBc3NpZ25EYXRlc0ZvckJyYW5jaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Date/DateLocalStorge.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Date/DateLocalStorge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVxEYXRlTG9jYWxTdG9yZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Date/GetDates.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Date/GetDates.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVxHZXREYXRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Email/SendEmail.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Email/SendEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcU2VuZEVtYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/File/Index.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/File/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/File/Upload.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/File/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Guset/RelatedBGS.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Guset/RelatedBGS.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VzZXRcUmVsYXRlZEJHUy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Home/Index.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Home/Privacy.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/GetAll.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/GetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcR2V0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/GetById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/GetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcR2V0QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/GetByIdAdmin.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/GetByIdAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcR2V0QnlJZEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/Insert.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/SearchByName.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/SearchByName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcU2VhcmNoQnlOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/SearchByNameGuset.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/SearchByNameGuset.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcU2VhcmNoQnlOYW1lR3VzZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/MedicalService/UpdateById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/MedicalService/UpdateById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFNlcnZpY2VcVXBkYXRlQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Role/Index.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Role/New.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Role/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Admin/_AdminLayout.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Admin/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Admin/_CsslinksAdminPartialView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Admin/_CsslinksAdminPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9Dc3NsaW5rc0FkbWluUGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Admin/_JsLinksAdminPartialView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Admin/_JsLinksAdminPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9Kc0xpbmtzQWRtaW5QYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Admin/_Menu.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Admin/_Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Components/Branch/Default.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Components/Branch/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJhbmNoXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Components/Role/Default.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Components/Role/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUm9sZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/Error.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/GetAllWorkerCertainPosition.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/GetAllWorkerCertainPosition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdldEFsbFdvcmtlckNlcnRhaW5Qb3NpdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/LocalStorge.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/LocalStorge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvY2FsU3RvcmdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/SearchByNameCertainJob.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/SearchByNameCertainJob.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlYXJjaEJ5TmFtZUNlcnRhaW5Kb2IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_BigFooterPartialView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_BigFooterPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CaWdGb290ZXJQYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_CssLinksPartiaView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_CssLinksPartiaView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Dc3NMaW5rc1BhcnRpYVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_FooterPartailView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_FooterPartailView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0YWlsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_headerPartialView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_headerPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXJQYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_JsLinksPartialView.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_JsLinksPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Kc0xpbmtzUGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_MyLayout.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Welcome/BranchGusetServiceError.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Welcome/BranchGusetServiceError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VsY29tZVxCcmFuY2hHdXNldFNlcnZpY2VFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Welcome/Invoice.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Welcome/Invoice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VsY29tZVxJbnZvaWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Welcome/SeeMedicalServcie.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Welcome/SeeMedicalServcie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VsY29tZVxTZWVNZWRpY2FsU2VydmNpZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Welcome/WelcomePage.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Welcome/WelcomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VsY29tZVxXZWxjb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Workers/GetAllWorkers.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Workers/GetAllWorkers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2Vyc1xHZXRBbGxXb3JrZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Workers/UpdateById.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Workers/UpdateById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2Vyc1xVcGRhdGVCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Workers/WorkerDetails.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Workers/WorkerDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2Vyc1xXb3JrZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/_ViewImports.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/_ViewStart.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/asp.net course/myprojects/MedicalServices/MedicalServices/MedicalServices/Views/Shared/_Layout.cshtml]
+[D:/asp.net course/myprojects/MedicalServicesGithub/MedicalServicesProject/MedicalServices/MedicalServices/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m6zmks53b1

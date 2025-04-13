@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JZ+uDKWFJMc=",
+  "dgSpecHash": "8j2f79tL6WA=",
   "success": true,
-  "projectFilePath": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
+  "projectFilePath": "D:\\asp.net course\\myprojects\\MedicalServicesGithub\\MedicalServicesProject\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xprs\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\xprs\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
