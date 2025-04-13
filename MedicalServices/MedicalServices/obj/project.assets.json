@@ -8107,11 +8107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\asp.net course\\myprojects\\MedicalServicesGithub\\MedicalServicesProject\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
+      "projectUniqueName": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
       "projectName": "MedicalServices",
-      "projectPath": "D:\\asp.net course\\myprojects\\MedicalServicesGithub\\MedicalServicesProject\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
+      "projectPath": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\MedicalServices.csproj",
       "packagesPath": "C:\\Users\\xprs\\.nuget\\packages\\",
-      "outputPath": "D:\\asp.net course\\myprojects\\MedicalServicesGithub\\MedicalServicesProject\\MedicalServices\\MedicalServices\\obj\\",
+      "outputPath": "D:\\asp.net course\\myprojects\\MedicalServices\\MedicalServices\\MedicalServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xprs\\AppData\\Roaming\\NuGet\\NuGet.Config",

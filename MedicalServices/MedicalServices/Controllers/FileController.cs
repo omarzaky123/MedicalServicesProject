@@ -3,6 +3,7 @@ using MedicalServices.Repository;
 using MedicalServices.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Operations;
 using System;
 using System.Numerics;
 using System.Security.Claims;
@@ -54,15 +55,18 @@ namespace MedicalServices.Controllers
         [HttpGet]
         public IActionResult Upload()
         {
+            ViewBag.RelatedServices = new List<MedicalServiceVm>();
             if (User.IsInRole("Doctor"))
             {
                 string userid = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier).Value;
                 Doctor doctor = workerRepositoryDoc.GetByUserId02(userid);
-                ViewBag.BGS = branchGusetService.GetForCertainBranchNotUplodedOrders(doctor?.BranchID??0);
+                int branchid = doctor?.BranchID ?? 0;
+                ViewBag.Gusets = branchGusetService.GetGusetsForCertainBranch(branchid);
+                ViewBag.branchid = branchid;
             }
             else if (User.IsInRole("SuperAdmin"))
             {
-                ViewBag.BGS = branchGusetService.GetForCertainBranchNotUplodedOrders();
+                ViewBag.Gusets = branchGusetService.GetGusetsForCertainBranch();
             }
 
             return View();  
@@ -71,6 +75,7 @@ namespace MedicalServices.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upload(UploadedFilesVm uploadedFilesVm)
         {
+            uploadedFilesVm.OrderForignKeyID =branchGusetService.GetIdByServicesIdAndGusetNameId(uploadedFilesVm.GusetId,uploadedFilesVm.RelatedServiceForGuset);
             List<UplodedFile> files = new List<UplodedFile>();
             foreach (var fileVm in uploadedFilesVm.Files) {
                 var fakeFileName = Path.GetRandomFileName();

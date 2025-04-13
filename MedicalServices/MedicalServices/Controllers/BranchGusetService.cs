@@ -95,6 +95,26 @@ namespace MedicalServices.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult RelatedOrdersForCertainBranch(int gusetId,int branchid=0) { 
+        
+            List<MedicalService> services= branchGusetRepository.RelatedOrdersForCertainBranch(gusetId, branchid);
+            #region Mapping
+            List<MedicalServicesForDropDownVm> medicalServicesVm= new List<MedicalServicesForDropDownVm>();
+
+            foreach (MedicalService service in services) {
+                MedicalServicesForDropDownVm medicalServiceVm = new MedicalServicesForDropDownVm();
+                medicalServiceVm.Name = service?.Name??"Not Found";
+                medicalServiceVm.branchId = service?.BranchID ?? 0;
+                medicalServiceVm.ID = service?.ID??0;
+                medicalServicesVm.Add(medicalServiceVm);
+
+            }
+            #endregion
+
+            return Ok(medicalServicesVm);
+        }
+
+
         public IActionResult SearchByName(string searchname,int branchid=0)
         {
             List<BranchGusetService> branchGusetServices = sortAndSearchRepository.SearchByGuset(searchname,branchid);

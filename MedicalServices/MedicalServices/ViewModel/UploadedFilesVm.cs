@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MedicalServices.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace MedicalServices.ViewModel
 {
@@ -8,6 +9,11 @@ namespace MedicalServices.ViewModel
         public List<IFormFile> Files { get; set; }
         [Required]
         public int OrderForignKeyID { get; set; }
+
+        [Required]
+        public int  GusetId { get; set; }
+        [Required]
+        public int RelatedServiceForGuset { get; set; }
 
     }
 }

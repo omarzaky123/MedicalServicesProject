@@ -13,8 +13,11 @@
             <tr>
                 <td>Name</td>
                 <td>OrderID</td>
-                <td>SentEmail</td>
+                <td>Branch</td>
+                <td>Service</td>
+                <td>Guset</td>
                 <td>Upload</td>
+                <td>Email</td>
                 <td>Download</td>
             </tr>
         </thead>
@@ -30,6 +33,15 @@
                     </td>
                     <td class="role">
                         <p class="text">@file.BranchGusetService.ID</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(file?.BranchGusetService?.Branch?.Name??"Not Found")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(file?.BranchGusetService?.MedicalService?.Name??"Not Found")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(file?.BranchGusetService?.Guset?.User.UserName ?? "Not Found")</p>
                     </td>
                     <td class="role">
                             @if (file.BranchGusetService.EmailSent == true)

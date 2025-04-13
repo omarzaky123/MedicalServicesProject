@@ -1,7 +1,12 @@
 ﻿@model UploadedFilesVm
 @{
     Layout = "Admin/_AdminLayout";
-    SelectList selectListItems = new SelectList(ViewBag.BGS, "ID", "ID");
+    SelectList selectListItems = new SelectList(
+        items: ViewBag.Gusets,       // Your collection
+        dataValueField: "ID",      // Hidden value (not displayed)
+        dataTextField: "User.UserName"  // Displayed text
+    );
+    SelectList selectListItems1 = new SelectList(ViewBag.RelatedServices, "ID","Name");
 }
 <h2 class="name">Upload</h2>
 <div class="new">
@@ -18,19 +23,59 @@
             <span asp-validation-for="Files"></span>
         </div>
         <div class="text">
-            <label asp-for="OrderForignKeyID">OrderId</label>
-            <select asp-items="selectListItems" asp-for="OrderForignKeyID">
-                
+            <label asp-for="GusetId">Gustes</label>
+            <select asp-items="selectListItems" asp-for="GusetId">
+                <option value="0">--GusetId--</option>
             </select>
-            <span asp-validation-for="OrderForignKeyID"></span>
+            <span asp-validation-for="GusetId"></span>
+        </div>
+        <div class="text">
+            <label asp-for="RelatedServiceForGuset">RelatedServices</label>
+            <select asp-items="selectListItems1" asp-for="RelatedServiceForGuset">
+                <option value="0">--SelectUser--</option>
+            </select>
+            <span asp-validation-for="RelatedServiceForGuset"></span>
         </div>
         <div class="submit">
             <input type="submit" />
             <div asp-validation-summary="All" class="text" style="color:red"></div>
         </div>
-
+        <input type="hidden" id="branchid" value="@(ViewBag?.branchid??0)" />
     </div>
 
 </form>
+
+<script>
+    const dropdownlist = document.getElementById("GusetId");
+    const branchIdElement = document.getElementById("branchid");
+
+    dropdownlist.addEventListener("change", function () {
+        const gusetId = this.value;
+        console.log(gusetId);
+        const branchid = branchIdElement.value;
+        const servicesListElemnet = $('#RelatedServiceForGuset');
+        servicesListElemnet.empty();
+        servicesListElemnet.append($('<option></option>')); // Added missing parenthesis
+
+        $.ajax({
+            url: "/BranchGusetService/RelatedOrdersForCertainBranch",
+            data: { "gusetId": gusetId, "branchid": branchid },
+            success: function (results) {
+                console.log(results);
+                $.each(results, function (i, result) {
+                    servicesListElemnet.append(
+                        $('<option></option>')
+                            .attr('value', result.id)
+                            .text(result.name)
+                    );
+                });
+            }
+            
+        });
+    });
+
+
+
+</script>
 <partial name="_ValidationScriptsPartial"></partial>
 

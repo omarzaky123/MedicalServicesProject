@@ -44,6 +44,20 @@ namespace MedicalServices.Repository
                      .ToList();
             }
         }
+        //Get Gusets That Make A orders for certaint Branch(Unique)
+        public List<Guset> GetGusetsForCertainBranch(int branchid=0)
+        {
+            if (branchid == 0)
+            {
+                //all Gusetes
+                return context.BranchGusetServices.Select(X => X.Guset).Distinct().ToList();
+            }
+            else
+            {
+                return context.BranchGusetServices.Where(BGS=>BGS.BranchID==branchid)
+                    .Select(BGS=>BGS.Guset).Distinct().ToList();
+            }
+        }
 
 
         public void Delete(int branchid,int gusetid)
@@ -55,6 +69,27 @@ namespace MedicalServices.Repository
                 context.Remove(branchGusetService);
                 context.SaveChanges();  
             }
+        }
+
+
+        public List<MedicalService> RelatedOrdersForCertainBranch(int guestId,int branchid=0) {
+                if (branchid == 0)
+                {
+                    return context.BranchGusetServices.Where(BGS => BGS.GusetID==guestId && BGS.Uploaded==false)
+                        .Select(BGS => BGS.MedicalService).ToList();
+                }
+                else {
+
+                    return context.BranchGusetServices
+                        .Where(BGS => BGS.GusetID == guestId && BGS.BranchID==branchid && BGS.Uploaded == false)
+                        .Select(BGS => BGS.MedicalService).ToList();
+                }
+            
+        }
+        public int GetIdByServicesIdAndGusetNameId(int gusetId,int serviceId) { 
+        
+                return context.BranchGusetServices.Where(X=>X.MedicalService.ID== serviceId && X.GusetID== gusetId && X.Uploaded==false)
+                .Select(BGS=>BGS.ID).FirstOrDefault();
         }
 
     }
